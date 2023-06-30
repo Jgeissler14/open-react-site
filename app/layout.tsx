@@ -1,4 +1,5 @@
 import './css/style.css'
+import Script from 'next/script'
 
 import { Inter, Architects_Daughter } from 'next/font/google'
 
@@ -29,6 +30,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Script strategy="lazyOnload">
+                 {`
+                     window.dataLayer = window.dataLayer || [];
+                     function gtag(){dataLayer.push(arguments);}
+                     gtag('js', new Date());
+                     gtag('config', 'G-5QY6Q4E8WD', {
+                     page_path: window.location.pathname,
+                     });
+                 `}
+       </Script>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {/* <Header /> */}

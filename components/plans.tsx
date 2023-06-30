@@ -53,11 +53,12 @@ export default function Plans() {
               </div>
             </div>
 
-            {/* yearly */}
-            <div className="mx-auto mb-4" >
-              <div className="md:pl-4 lg:pl-12 xl:pl-16">
+            
+           {/* yearly */}
+            <div className="mx-auto mb-4 md:flex-grow">
+              <div>
                 <h3 className="h3 mb-3">Yearly</h3>
-                <p className="text-xl text-gray-400 mb-4">Save $828 per month</p>
+                <p className="text-xl text-gray-400 mb-4">Save $828 per month.</p>
                 <p className="text-xl text-gray-400">$49,995/y</p>
                 <p className="text-sm text-gray-400 mb-6">Paid annually</p>
                 <div data-aos="fade-up" data-aos-delay="400">
@@ -86,6 +87,7 @@ export default function Plans() {
                 </ul>
               </div>
             </div>
+
             
           </div>
         </div>

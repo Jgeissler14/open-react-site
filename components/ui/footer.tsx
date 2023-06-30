@@ -8,22 +8,19 @@ export default function Footer() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
           {/* Top area: Blocks */}
-          <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
 
-            {/* 3rd block */}
-            <div className="text-sm">
-              <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
-              <ul>
-                <li className="mb-1">
-                  <Link href="/terms" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
-                </li>
-                <li className="mb-1">
-                  <Link href="/privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
-                </li>
-              </ul>
-            </div>
-
+          <div className="text-sm">
+            <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+            <ul>
+              <li className="mb-1">
+                <Link href="/terms" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
+              </li>
+              <li className="mb-1">
+                <Link href="/privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
+              </li>
+            </ul>
           </div>
+
 
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">

@@ -18,11 +18,9 @@ export default function Plans() {
             {/* monthly */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
                   <h3 className="h3 mb-3">Monthly</h3>
                   <p className="text-xl text-gray-400 mb-4">No commitment. Pause or cancel anytime.</p>
                   <p className="text-xl text-gray-400 mb-4">$4,995/m</p>
-                  <p className="text-xl text-gray-400 mb-4">Pause or cancel anytime</p>
                   <div data-aos="fade-up" data-aos-delay="400">
                     <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>
@@ -49,15 +47,14 @@ export default function Plans() {
                 </div>
               </div>
             </div>
-
+          </div>
+          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* yearly */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
                   <h3 className="h3 mb-3">Yearly</h3>
-                  <p className="text-xl text-gray-400 mb-4">Save $828 per month</p>
+                  <p className="text-xl text-gray-400 mb-4">Save $828 per month. Paid Annually</p>
                   <p className="text-xl text-gray-400 mb-4">$4,167/m</p>
-                  <p className="text-xl text-gray-400 mb-4">Paid Annually</p>
                   <div data-aos="fade-up" data-aos-delay="400">
                     <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://buy.stripe.com/14k7uLaLXgcueVa148">Get Started</a>
                 </div>
@@ -81,7 +78,7 @@ export default function Plans() {
                 </div>
               </div>
             </div>
-      </div>
+          </div>
     </section>
   )
 }

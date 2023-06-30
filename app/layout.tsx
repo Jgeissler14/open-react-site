@@ -29,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Script strategy="lazyOnload">
+      <script strategy="lazyOnload">
                 {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
@@ -38,7 +38,7 @@ export default function RootLayout({
                     page_path: window.location.pathname,
                     });
                 `}
-      </Script>
+      </script>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {/* <Header /> */}

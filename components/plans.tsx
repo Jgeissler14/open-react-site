@@ -16,7 +16,7 @@ export default function Plans() {
           <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start">
 
             {/* monthly */}
-            <div className="mx-auto mb-4">
+            <div className="mx-auto mb-4 w-full">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Monthly</h3>
                 <p className="text-xl text-gray-400 mb-4">No commitment. Pause or cancel anytime.</p>
@@ -55,7 +55,7 @@ export default function Plans() {
 
             
            {/* yearly */}
-            <div className="mx-auto mb-4 md:flex-grow">
+            <div className="mx-auto mb-4 w-full">
               <div>
                 <h3 className="h3 mb-3">Yearly</h3>
                 <p className="text-xl text-gray-400 mb-4">Save $828 per month. Pause anytime</p>

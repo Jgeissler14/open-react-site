@@ -45,7 +45,7 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Fixed monthly rate</h4>
+              <h4 className="h4 mb-2">Fixed Monthly Rate</h4>
               <p className="text-lg text-gray-400 text-center">No surprises here! Pay the same fixed price each month for your development needs.</p>
             </div>
 
@@ -58,7 +58,7 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Top-notch quality</h4>
+              <h4 className="h4 mb-2">Top-Notch Quality</h4>
               <p className="text-lg text-gray-400 text-center">Access top-notch engineering expertise whenever you need it.</p>
             </div>
 
@@ -71,7 +71,7 @@ export default function Features() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Flexible and scalable</h4>
+              <h4 className="h4 mb-2">Flexible and Scalable</h4>
               <p className="text-lg text-gray-400 text-center">Scale up or down your infrastructure resources as needed, and pause or cancel at any time.</p>
             </div>
 
@@ -85,7 +85,7 @@ export default function Features() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Unique and tailored to your needs</h4>
+              <h4 className="h4 mb-2">Tailored to Your Needs</h4>
               <p className="text-lg text-gray-400 text-center">Each solution is developed uniquely for your business and requirements.</p>
             </div>
 

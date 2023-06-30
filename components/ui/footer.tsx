@@ -1,5 +1,5 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -10,26 +10,26 @@ export default function Footer() {
           {/* Top area: Blocks */}
           <div className="grid md:grid-cols-12 gap-8 lg:gap-20 mb-8 md:mb-12">
 
-              {/* 3rd block */}
-              <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
-                <ul>
-                  <li className="mb-1">
-                    <Link href="/terms" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link href="/privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
-                  </li>
-                </ul>
-              </div>
-
+            {/* 3rd block */}
+            <div className="text-sm">
+              <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
+              <ul>
+                <li className="mb-1">
+                  <Link href="/terms" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
+                </li>
+                <li className="mb-1">
+                  <Link href="/privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>
+                </li>
+              </ul>
             </div>
+
+          </div>
 
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
 
             {/* Social links */}
-            <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
+            <ul className="flex mb-4 md:order-1 md:mb-0">
               <li className="ml-4">
                 <Link href="https://www.github.com/Jgeissler14" className="flex justify-center items-center text-purple-600 bg-gray-800 hover:text-gray-100 hover:bg-purple-600 rounded-full transition duration-150 ease-in-out" aria-label="Github">
                   <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
@@ -47,12 +47,12 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm mr-4">&copy; {new Date().getFullYear()} Geisslersolutions.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Geisslersolutions.com. All rights reserved.</div>
 
           </div>
 
         </div>
       </div>
     </footer>
-  )
+  );
 }

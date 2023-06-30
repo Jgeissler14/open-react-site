@@ -16,11 +16,11 @@ export default function Plans() {
           <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start">
 
             {/* monthly */}
-            <div className="mx-auto mb-4" data-aos="fade-right">
+            <div className="mx-auto mb-4">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Monthly</h3>
                 <p className="text-xl text-gray-400 mb-4">No commitment. Pause or cancel anytime.</p>
-                <p className="text-xl text-gray-400 mb-4">$4,995/m</p>
+                <p className="text-xl text-gray-400">$4,995/m</p>
                 <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
@@ -54,12 +54,12 @@ export default function Plans() {
             </div>
 
             {/* yearly */}
-            <div className="mx-auto mb-4" data-aos="fade-left">
+            <div className="mx-auto mb-4" >
               <div className="md:pl-4 lg:pl-12 xl:pl-16">
                 <h3 className="h3 mb-3">Yearly</h3>
-                <p className="text-xl text-gray-400 mb-4">Best value.</p>
+                <p className="text-xl text-gray-400 mb-4">Save $828 per month</p>
                 <p className="text-xl text-gray-400">$49,995/y</p>
-                <p className="text-sm text-gray-400 mb-6">Save $828 annually</p>
+                <p className="text-sm text-gray-400 mb-6">Paid annually</p>
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>

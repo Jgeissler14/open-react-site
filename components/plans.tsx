@@ -13,21 +13,22 @@ export default function Plans() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
+          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start">
 
             {/* monthly */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 mb-4" data-aos="fade-right">
+            <div className="mx-auto mb-4" data-aos="fade-right">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Monthly</h3>
                 <p className="text-xl text-gray-400 mb-4">No commitment. Pause or cancel anytime.</p>
                 <p className="text-xl text-gray-400 mb-4">$4,995/m</p>
+                <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
                 </div>
-                <ul className="text-lg text-gray-400 -mb-2">
+                <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                     <span>One request at a time</span>
@@ -51,20 +52,21 @@ export default function Plans() {
                 </ul>
               </div>
             </div>
-            
+
             {/* yearly */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6 mb-4" data-aos="fade-right">
-              <div className="md:pr-4 lg:pr-12 xl:pr-16">
+            <div className="mx-auto mb-4" data-aos="fade-left">
+              <div className="md:pl-4 lg:pl-12 xl:pl-16">
                 <h3 className="h3 mb-3">Yearly</h3>
-                <p className="text-xl text-gray-400 mb-4">Save $828 per month. Paid Annually</p>
-                <p className="text-xl text-gray-400 mb-4">$4,167/m</p>
+                <p className="text-xl text-gray-400 mb-4">Best value.</p>
+                <p className="text-xl text-gray-400">$49,995/y</p>
+                <p className="text-sm text-gray-400 mb-6">Save $828 annually</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/14k7uLaLXgcueVa148">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
                 </div>
-                <ul className="text-lg text-gray-400 -mb-2">
+                <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                     <span>One request at a time</span>
@@ -84,6 +86,7 @@ export default function Plans() {
                 </ul>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

@@ -25,8 +25,6 @@ export default function Footer() {
 
             </div>
 
-          </div>
-
           {/* Bottom area */}
           <div className="md:flex md:items-center md:justify-between">
 

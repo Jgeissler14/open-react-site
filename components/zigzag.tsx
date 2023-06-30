@@ -56,9 +56,6 @@ export default function Zigzag() {
               </div>
             </div>
 
-            {/* 2nd item
-            <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl" data-aos="fade-up">
                 <Image className="max-w-full mx-auto md:max-w-none h-auto" src={FeatImage02} width={540} height={405} alt="Features 02" />
               </div>
@@ -90,7 +87,6 @@ export default function Zigzag() {
                   </ul>
                 </div>
               </div>
-            </div>
 
             {/* 3rd item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
@@ -126,7 +122,7 @@ export default function Zigzag() {
                   </ul>
                 </div>
               </div>
-            </div> */}
+            </div>
 
           </div>
 

@@ -26,6 +26,7 @@ export default function Plans() {
                 </div>
                 <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                     <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
+                    <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
                 </div>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
@@ -47,8 +48,6 @@ export default function Plans() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none">
             {/* yearly */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
@@ -57,10 +56,8 @@ export default function Plans() {
                   <p className="text-xl text-gray-400 mb-4">$4,167/m</p>
                   <div data-aos="fade-up" data-aos-delay="400">
                     <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="https://buy.stripe.com/14k7uLaLXgcueVa148">Get Started</a>
-                </div>
-                <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                     <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
-                </div>
+                  </div>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <span>One request at a time</span>

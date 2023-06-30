@@ -29,16 +29,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-5QY6Q4E8WD"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-5QY6Q4E8WD');
-      </script>
-      </head>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           {/* <Header /> */}

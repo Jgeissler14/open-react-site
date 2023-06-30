@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Geissler Solutions - DevOps as a Subscription',
+  description: 'AWS infrastructure subscriptions to scale your business',
 }
 
 import Hero from '@/components/hero'

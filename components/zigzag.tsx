@@ -31,7 +31,7 @@ export default function Zigzag() {
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                   <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div>
                   <h3 className="h3 mb-3">Keep projects on schedule</h3>
-                  <p className="text-xl text-gray-400 mb-4">Don't like meetings? We don't either; so much so that we've outlawed them completely.Manage your infrastructure board asynchrnously using Trello. View active, queued, and completed tasks with ease. </p>
+                  <p className="text-xl text-gray-400 mb-4">Don't like meetings? We don't either; so much so that we've outlawed them completely. Manage your infrastructure board asynchrnously using Trello. View active, queued, and completed tasks with ease. </p>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">

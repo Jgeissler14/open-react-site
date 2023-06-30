@@ -24,23 +24,28 @@ export default function Plans() {
                   <div data-aos="fade-up" data-aos-delay="400">
                     <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                   </div>
-                <div className="text-gray-700 font-medium mt-6 pt-5">
+                <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                     <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
                 </div>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>One request at a time</span>
                     </li>
                     <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Unlimited module</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Unlimited revisions</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Easy credit-card payments</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Pause or cancel anytime</span>
                     </li>
                   </ul>
@@ -56,23 +61,28 @@ export default function Plans() {
                   <div data-aos="fade-up" data-aos-delay="400">
                     <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/14k7uLaLXgcueVa148">Get Started</a>
                   </div>
-                   <div className="text-gray-700 font-medium mt-6 pt-5">
+                   <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                     <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
                   </div>
                   <ul className="text-lg text-gray-400 -mb-2">
                     <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>One request at a time</span>
                     </li>
                     <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Unlimited module</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Unlimited revisions</span>
                     </li>
-                    <li className="flex items-center">
+                    <li className="flex items-center mb-2">
+                      <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                       <span>Easy credit-card payments</span>
                     </li>
                   </ul>
+
                 </div>
               </div>
             </div>

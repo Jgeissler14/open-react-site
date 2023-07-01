@@ -6,8 +6,8 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">We didn't reinvent the wheel, just DevOps</h2>
-            <p className="text-xl text-gray-400">DevOps as you know it is out the door. DevOps as you want it just arrived.</p>
+            <h2 className="h2 mb-4">Membership Benefits</h2>
+            <p className="text-xl text-gray-400">Perks so good you'll never need to go anywhere else. Seriously.</p>
           </div>
 
           {/* Items */}

@@ -13,7 +13,7 @@ export default function Footer() {
             <h6 className="text-gray-200 font-medium mb-1">Resources</h6>
             <ul>
               <li className="mb-1">
-                <Link href="/terms" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
+                <Link href="/tos" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Terms Of Service</Link>
               </li>
               <li className="mb-1">
                 <Link href="/privacy" className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out">Privacy Policy</Link>

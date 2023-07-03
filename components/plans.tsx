@@ -60,7 +60,7 @@ export default function Plans() {
               <div>
                 <h3 className="h3 mb-3">Yearly</h3>
                 <p className="text-xl text-gray-400 mb-4">Get 2 Months Free.</p>
-                <p className="text-xl text-gray-400">$49,995/y</p>
+                <p className="text-xl text-gray-400">$4,163/m</p>
                 <p className="text-sm text-gray-400 mb-6">Paid annually</p>
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/14k7uLaLXgcueVa148">Get Started</a>

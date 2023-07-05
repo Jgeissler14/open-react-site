@@ -6,7 +6,7 @@ export default function Features() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Membership Benefits</h2>
+            <h2 className="h2 mb-4">Membership benefits</h2>
             <p className="text-xl text-gray-400">Perks so good you'll never need to go anywhere else. Seriously.</p>
           </div>
 

@@ -33,7 +33,7 @@ export default function Home() {
       <Hero />
       <Zigzag />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Plans />
       <Faq />
       {/* <Newsletter /> */}

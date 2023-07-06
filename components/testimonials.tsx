@@ -15,11 +15,9 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonials */}
-          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start lg:max-w-none">
+          <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-1 lg:gap-6 items-start lg:max-w-none">
             {/* for 3 cols */}
           {/* <div className="max-w-sm mx-auto grid gap-8 lg:grid-cols-3 lg:gap-6 items-start lg:max-w-none"> */}
-
-              <Image className="rounded-full w-full" src={TfAws} alt="TF AWS" />
             {/* 1st testimonial */}
             <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
               <div>

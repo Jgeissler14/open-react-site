@@ -40,6 +40,23 @@ export default function RootLayout({
                      });
                  `}
        </Script>
+       <Script strategy="beforeInteractive">
+      {`
+        _linkedin_partner_id = "5106866";
+        window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+        window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+      `}
+    </Script>
+    <Script src="https://snap.licdn.com/li.lms-analytics/insight.min.js" strategy="beforeInteractive" />
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style={{ display: 'none' }}
+        alt=""
+        src="https://px.ads.linkedin.com/collect/?pid=5106866&fmt=gif"
+      />
+    </noscript>
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-900 text-gray-200 tracking-tight`}>
         <div className="flex flex-col min-h-screen overflow-hidden">
           <Header />

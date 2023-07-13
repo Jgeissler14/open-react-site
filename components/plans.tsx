@@ -21,10 +21,10 @@ export default function Plans() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Monthly</h3>
                 <p className="text-xl text-gray-400 mb-4">No commitment. Pause or cancel anytime.</p>
-                <p className="text-xl text-gray-400">$2,495/m</p>
+                <p className="text-xl text-gray-400">$4,995/m</p>
                 <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/5kA6qHcU5bWe3cs006">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
@@ -58,12 +58,12 @@ export default function Plans() {
            {/* yearly */}
             <div className="mx-auto mb-4 w-full">
               <div>
-                <h3 className="h3 mb-3">Quarterly</h3>
-                <p className="text-xl text-gray-400 mb-4">Save $500 per month.</p>
-                <p className="text-xl text-gray-400">$1,995/m</p>
-                <p className="text-sm text-gray-400 mb-6">Billed quarterly</p>
+                <h3 className="h3 mb-3">Yearly</h3>
+                <p className="text-xl text-gray-400 mb-4">Save $1000 per month.</p>
+                <p className="text-xl text-gray-400">$3,995/m</p>
+                <p className="text-sm text-gray-400 mb-6">Billed Annually</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/4gw6qHdY9gcubIYbIN">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/28og1h7zL0dwcN2cMT">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>

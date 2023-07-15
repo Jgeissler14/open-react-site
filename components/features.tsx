@@ -59,7 +59,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Top-Notch Quality</h4>
-              <p className="text-lg text-gray-400 text-center">Access top-notch engineering expertise whenever you need it.</p>
+              <p className="text-lg text-gray-400 text-center">Access top-notch engineering expertise whenever you need it, satisfaction guaranteed.</p>
             </div>
 
             {/* 5th item */}
@@ -86,7 +86,7 @@ export default function Features() {
                 </g>
               </svg>
               <h4 className="h4 mb-2">Tailored to Your Needs</h4>
-              <p className="text-lg text-gray-400 text-center">Each solution is developed uniquely for your business and requirements.</p>
+              <p className="text-lg text-gray-400 text-center">Each solution is developed uniquely for your business and requirements. </p>
             </div>
 
           </div>

@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-xl font-semibold mb-4">7. Contact Us</h2>
             <p className="text-gray-400 mb-6">
-              If you have any questions or concerns about our Privacy Policy, please contact us at privacy@Cloudzap.com.
+              If you have any questions or concerns about our Privacy Policy, please contact us at privacy@Cloudzap.co.
             </p>
           </div>
 

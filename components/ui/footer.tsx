@@ -44,7 +44,7 @@ export default function Footer() {
             </ul>
 
             {/* Copyrights note */}
-            <div className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Cloudzap.com. All rights reserved.</div>
+            <div className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Cloudzap.co. All rights reserved.</div>
 
           </div>
 

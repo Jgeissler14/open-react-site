@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           {/* Privacy Policy content */}
           <div className="max-w-2xl mx-auto">
             <p className="text-gray-400 mb-6">
-              At GeisslerSolutions, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose your personal information when you use our website and services. By accessing or using our website, you agree to the terms of this Privacy Policy.
+              At Cloudzap, we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and disclose your personal information when you use our website and services. By accessing or using our website, you agree to the terms of this Privacy Policy.
             </p>
 
             <h2 className="text-xl font-semibold mb-4">1. Information We Collect</h2>
@@ -54,7 +54,7 @@ export default function PrivacyPolicy() {
 
             <h2 className="text-xl font-semibold mb-4">7. Contact Us</h2>
             <p className="text-gray-400 mb-6">
-              If you have any questions or concerns about our Privacy Policy, please contact us at privacy@geisslersolutions.com.
+              If you have any questions or concerns about our Privacy Policy, please contact us at privacy@Cloudzap.com.
             </p>
           </div>
 

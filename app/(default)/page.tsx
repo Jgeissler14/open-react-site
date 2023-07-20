@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'Geissler Solutions - DevOps as a Subscription',
+  title: 'CloudZap - DevOps as a Subscription',
   description: 'AWS infrastructure subscriptions to scale your business',
 }
 import Script from 'next/script'

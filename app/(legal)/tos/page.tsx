@@ -13,7 +13,7 @@ export default function Tos() {
             <div className="max-w-2xl mx-auto">
               <h2 className="text-xl font-semibold mb-4">1. Introduction</h2>
               <p className="text-gray-400 mb-6">
-                Welcome to GeisslerSolutions, provided by JG Cloud Consulting LLC. These Terms of Service ("Terms") govern your use of our website and related services. By accessing or using our website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use our website.
+                Welcome to Cloudzap, provided by JG Cloud Consulting LLC. These Terms of Service ("Terms") govern your use of our website and related services. By accessing or using our website, you agree to be bound by these Terms. If you do not agree with any part of these Terms, you may not use our website.
               </p>
   
               <h2 className="text-xl font-semibold mb-4">2. Account Registration</h2>

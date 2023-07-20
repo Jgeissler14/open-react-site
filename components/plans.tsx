@@ -27,7 +27,7 @@ export default function Plans() {
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
-                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
+                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/Cloudzap/30min">Book a call</a>
                 </div>
                 <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">
@@ -66,7 +66,7 @@ export default function Plans() {
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/28og1h7zL0dwcN2cMT">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
-                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/geisslersolutions/30min">Book a call</a>
+                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/Cloudzap/30min">Book a call</a>
                 </div>
                 <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">

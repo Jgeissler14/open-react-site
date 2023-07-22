@@ -31,12 +31,12 @@ export default function Home() {
         }}
     />
       <Hero />
+      <Newsletter />
       <Zigzag />
       <Features />
       <Testimonials />
       <Plans />
       <Faq />
-      {/* <Newsletter /> */}
     </>
   )
 }

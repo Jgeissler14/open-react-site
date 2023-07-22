@@ -25,7 +25,7 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">WANT TO RECOVER 31 ENGINEERING HOURS PER MONTH?</h1>
-            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">31 Hours - that’s the average time your AWS engineers spend in meetings per month. Scale your AWS with subscriptions to with infrastructure delivered asynchronously in 48 hours on average.</p>
+            <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">31 Hours - that’s the average time your AWS engineers spend in meetings per month. Scale your AWS with subscriptions to unlimited infrastructure delivered asynchronously in 48 hours on average.</p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
                 <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#plans">Reclaim My Time</a>

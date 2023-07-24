@@ -31,7 +31,7 @@ export default function Home() {
         }}
     />
       <Hero />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Zigzag />
       <Features />
       <Testimonials />

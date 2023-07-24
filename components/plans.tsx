@@ -24,7 +24,7 @@ export default function Plans() {
                 <p className="text-xl text-gray-400">$495/m</p>
                 <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" href="https://buy.stripe.com/9AQ9CT3jvbWe6oE28g">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/9AQ9CT3jvbWe6oE28g">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/cloudzap/introduction" target="_blank">Book a call</a>
@@ -70,7 +70,7 @@ export default function Plans() {
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/bIYcP56vH9O67sIaEN">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
-                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="https://calendly.com/cloudzap/introduction" target="_blank">Book a call</a>
+                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="https://calendly.com/cloudzap/introduction">Book a call</a>
                 </div>
                 <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">

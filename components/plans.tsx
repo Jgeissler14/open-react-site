@@ -75,7 +75,11 @@ export default function Plans() {
                 <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
-                    <span>Two requests at a time</span>
+                    <span>One request at a time</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Managed Deployment Workspaces</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>

@@ -79,7 +79,7 @@ export default function Plans() {
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
-                    <span>Managed Deployment Workspaces</span>
+                    <span>Managed deployment workspaces</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>

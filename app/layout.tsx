@@ -19,7 +19,7 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'CloudZap - DevOps as a Subscription',
+  title: 'CloudZap - Cloud Engineering as a Subscription',
   description: 'AWS infrastructure subscriptions to scale your business',
 }
 

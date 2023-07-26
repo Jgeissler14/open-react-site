@@ -36,7 +36,7 @@ export default function Plans() {
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
-                    <span>Unlimited modules</span>
+                    <span>Unlimited requests</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
@@ -63,7 +63,7 @@ export default function Plans() {
             <div className="mx-auto mb-4 w-full">
               <div>
               <h3 className="h3 mb-3">Premium</h3>
-                <p className="text-xl text-gray-400 mb-4">Double the requests. Pause or cancel anytime.</p>
+                <p className="text-xl text-gray-400 mb-4">Managed deployments. Pause or cancel anytime.</p>
                 <p className="text-xl text-gray-400">$795/m</p>
                 <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
@@ -83,7 +83,7 @@ export default function Plans() {
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
-                    <span>Unlimited modules</span>
+                    <span>Unlimited requests</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>

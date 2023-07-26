@@ -44,13 +44,6 @@ export default function Faq() {
         </details>
 
         <details>
-          <summary className="text-xl font-bold mb-4">Do you maintain and deploy the infrastructure?</summary>
-          <p className="text-gray-400 mb-6">
-            No, we develop, test, and deliver the infrastructure as terraform. We include documentation on deployment but we do not ever receive access to your AWS.
-          </p>
-        </details>
-
-        <details>
           <summary className="text-xl font-bold mb-4">What if there are revisions?</summary>
           <p className="text-gray-400 mb-6">
           No worries! We'll continue to revise the infrastructure until you're 100% satisfied.

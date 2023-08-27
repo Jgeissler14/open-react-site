@@ -24,13 +24,16 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4" data-aos="fade-up">Need AWS Infrastructure?</h1>
+            <h1 className="h1 mb-4" data-aos="fade-up">Join other busineeses with subscriptions to unlimited AWS infrastructure</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-             Cloudzap scales your AWS with subscriptions to unlimited infrastructure delivered in 48 hours on average
-              </p>
+            Stop using unreliable freelancers. Unlimited Infrastructure requests managed via trello delivered in 48 hours or less. Start your first 30 days free.
+            </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#plans">Start Requesting</a>
+                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-2" href="#plans">Start Requesting 30 Days Free</a>
+                <p className="text-l text-white-100" data-aos-delay="200">
+                  No Credit Card Required
+                </p>
               </div>
               {/* <div data-aos="fade-up" data-aos-delay="600">
                 <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>

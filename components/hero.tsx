@@ -21,10 +21,10 @@ export default function Hero() {
 
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
-        <h1 className="h2 mb-4" data-aos="fade-up">STARTUPS</h1>
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
+          <p className="font-medium text-white mb-4">Cloudzap</p>
             <h1 className="h1 mb-4" data-aos="fade-up">DO YOU NEED AWS INFRASTRUCTURE?</h1>
             <p className="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">
             Stop using unreliable freelancers. Unlimited Infrastructure requests managed via trello delivered in 48 hours or less. Start your first 30 days free.

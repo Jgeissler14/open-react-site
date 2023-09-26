@@ -21,7 +21,7 @@ export default function Hero() {
 
         {/* Hero content */}
         <div className="relative pt-32 pb-10 md:pt-40 md:pb-16">
-        <h1 className="h1 mb-4" data-aos="fade-up">Startups</h1>
+        <h1 className="h2 mb-4" data-aos="fade-up">STARTUPS</h1>
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">

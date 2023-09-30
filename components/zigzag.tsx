@@ -12,7 +12,7 @@ export default function Zigzag() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">One Subscription, Infinite Solutions</h1>
-            <p className="text-xl text-gray-400">Say goodbye to unreliable freelancers and costly agencies. Experience rapid, high-quality Terraform development for a flat monthly fee.</p>
+            <p className="text-xl text-gray-400">We replace unreliable freelancers and expensive agencies for one flat monthly fee, with terraform code delivered so fast that it will blow your mind.</p>
           </div>
 
           {/* Items */}
@@ -47,7 +47,7 @@ export default function Zigzag() {
                       <svg className="w-3 h-3 fill-current text-green-500 mr-2 shrink-0" viewBox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.28 2.28L3.989 8.575 1.695 6.28A1 1 0 00.28 7.695l3 3a1 1 0 001.414 0l7-7A1 1 0 0010.28 2.28z" />
                       </svg>
-                      <span>Code revisions until you're fully satisfied, guaranteed.</span>
+                      <span>We'll revise the code until you're fully satisfied, guaranteed.</span>
                     </li>
                   </ul>
                 </div>

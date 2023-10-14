@@ -60,7 +60,7 @@ export default function Faq() {
           <summary className="text-xl font-bold mb-4">Are there any refunds if I don't like the service?
 </summary>
           <p className="text-gray-400 mb-6">
-            We offer a 100% satisfaction guarantee. If you don't like the service you can refund the full amount for the current month.
+            If you don't like the service you can refund the full amount for the current month at any time.
           </p>
         </details>
       </div>

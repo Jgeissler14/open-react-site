@@ -17,7 +17,7 @@ export default function Plans() {
           <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start">
 
 
-          <div className="mx-auto mb-4 w-full">
+          {/* <div className="mx-auto mb-4 w-full">
               <div>
               <h3 className="h3 mb-3">Free Trial</h3>
                 <p className="text-xl text-gray-400 mb-4">30 days free. No commitment.</p>
@@ -52,7 +52,7 @@ export default function Plans() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
 
             <div className="mx-auto mb-4 w-full">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
@@ -74,6 +74,50 @@ export default function Plans() {
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
                     <span>Unlimited requests</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Unlimited revisions</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Delivered in 48 hours on average</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Easy credit-card payments</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Pause or cancel anytime</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="mx-auto mb-4 w-full">
+              <div>
+              <h3 className="h3 mb-3">Premium</h3>
+                <p className="text-xl text-gray-400 mb-4">DevOps included. Pause or cancel anytime.</p>
+                <p className="text-xl text-gray-400">$4,995/m</p>
+                <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
+                <div data-aos="fade-up" data-aos-delay="400">
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/dR67uL7zLf8qbIY3ce">Get Started</a>
+                </div>
+                <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
+                  <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="https://calendly.com/cloudzap/introduction" target="_blank">Book a call</a>
+                </div>
+                <ul className="text-lg text-gray-400 -mb-2 pt-5 border-t border-gray-700">
+                <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Deployed and managed in your environment</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>One request at a time</span>
+                  </li>
+                  <li className="flex items-center mb-2">
+                    <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>
+                    <span>Unlimited modules</span>
                   </li>
                   <li className="flex items-center mb-2">
                     <span className="inline-block w-2 h-2 mr-2 bg-gray-400 rounded-full"></span>

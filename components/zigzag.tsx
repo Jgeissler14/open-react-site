@@ -11,8 +11,9 @@ export default function Zigzag() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">One Subscription, Infinite Solutions</h1>
-            <p className="text-xl text-gray-400">We replace unreliable freelancers and expensive agencies for one flat monthly fee, with terraform code delivered so fast that it will blow your mind.</p>
+            <h1 className="h2 mb-4">Our Services</h1>
+            <p className="text-xl text-gray-400">Imagine having a direct line to senior cloud architects for any cloud-related question or issue you encounter.
+             With thousands of cloud questions and issues resolved, Cloudzap is your gateway to world-class cloud expertise.</p>
           </div>
 
           {/* Items */}

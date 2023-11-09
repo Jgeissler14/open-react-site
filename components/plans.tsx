@@ -13,8 +13,7 @@ export default function Plans() {
             <p className="text-xl text-gray-400">Choose a plan that's right for you.</p>
           </div>
 
-          {/* Testimonials */}
-          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-2 lg:gap-6 items-start">
+          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-1 lg:gap-6 items-start">
 
 
           {/* <div className="mx-auto mb-4 w-full">
@@ -95,7 +94,7 @@ export default function Plans() {
               </div>
             </div>
 
-            <div className="mx-auto mb-4 w-full">
+            {/* <div className="mx-auto mb-4 w-full">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
               <h3 className="h3 mb-3">Premium</h3>
                 <p className="text-xl text-gray-400 mb-4">DevOps included. Pause or cancel anytime.</p>
@@ -138,7 +137,7 @@ export default function Plans() {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
            
           </div>
         </div>

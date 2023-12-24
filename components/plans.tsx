@@ -3,14 +3,14 @@ import Image from 'next/image'
 export default function Plans() {
   return (
     <section id='plans'>
-      <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-12 md:py-20 border-t border-gray-800">
+      <div className="mx-auto mb-4 w-full lg:w-3/5">
+       <div className="md:pr-4 lg:pr-12 xl:pr-16">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
           <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div>
             <h2 className="h2 mb-4">Membership levels</h2>
-            <p className="text-xl text-gray-400">Choose a plan that's right for you.</p>
+            {/* <p className="text-xl text-gray-400">Choose a plan that's right for you.</p> */}
           </div>
 
           <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-1 lg:gap-6 items-start">
@@ -57,10 +57,10 @@ export default function Plans() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Standard</h3>
                 <p className="text-xl text-gray-400 mb-4">One request at a time. Pause or cancel anytime.</p>
-                <p className="text-xl text-gray-400">$2,495/m</p>
+                <p className="text-xl text-gray-400">$499/m</p>
                 <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/4gw3ev9HTe4m00g5ku">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/28o4iz07jgcueVabIT">Get Started</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/cloudzap/introduction" target="_blank">Book a call</a>

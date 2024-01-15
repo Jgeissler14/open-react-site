@@ -3,14 +3,13 @@ export const metadata = {
   description: 'AWS infrastructure subscriptions to scale your business',
 }
 import Script from 'next/script'
-// import Hero from '@/components/hero'
+import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import Plans from '@/components/plans'
 import Faq from '@/components/faq'
-import Giveaway from '@/components/giveaway'
 
 
 export default function Home() {
@@ -31,9 +30,8 @@ export default function Home() {
         `,
         }}
     />
-      {/* <Hero /> */}
+      <Hero />
       {/* <Newsletter /> */}
-      <Giveaway />
       <Zigzag />
       <Features />
       <Testimonials />

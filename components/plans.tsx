@@ -53,7 +53,7 @@ export default function Plans() {
               </div>
             </div> */}
 
-            <div className="mx-auto mb-4 w-full">
+            <div className="mx-auto mb-4 w-full ml-4">
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Standard</h3>
                 <p className="text-xl text-gray-400 mb-4">One request at a time. Pause or cancel anytime.</p>

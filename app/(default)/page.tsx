@@ -10,7 +10,7 @@ import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 import Plans from '@/components/plans'
 import Faq from '@/components/faq'
-
+import Offer from '@/components/offer'
 
 export default function Home() {
   return (
@@ -33,8 +33,9 @@ export default function Home() {
       <Hero />
       {/* <Newsletter /> */}
       <Zigzag />
+      <Offer />
       <Features />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Plans />
       <Faq />
     </>

@@ -13,7 +13,7 @@ export default function Plans() {
             {/* <p className="text-xl text-gray-400">Choose a plan that's right for you.</p> */}
           </div>
 
-          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-1 lg:gap-6 items-start">
+          <div className="max-w-6xl mx-auto grid gap-8 lg:grid-cols-1 lg:gap-6 items-start ml-2">
 
 
           {/* <div className="mx-auto mb-4 w-full">

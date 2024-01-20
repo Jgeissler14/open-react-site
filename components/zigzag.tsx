@@ -22,7 +22,7 @@ export default function Zigzag() {
               {/* Image */}
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order" data-aos="fade-up">
                 {/* <Image className="max-w-full mx-auto md:max-w-none h-auto" src={Trello} width={540} height={405} alt="Features 01" /> */}
-                <div className="flex flex-col h-full p-6 bg-gray-800" data-aos="fade-up">
+                <div className="flex flex-col h-full p-6 bg-gray-800 mr-8" data-aos="fade-up">
                   <div>
                     <div className="relative inline-flex flex-col mb-4">
                       <svg className="absolute top-0 right-0 -mr-3 w-6 h-5 fill-current text-purple-600" viewBox="0 0 24 20" xmlns="http://www.w3.org/2000/svg">

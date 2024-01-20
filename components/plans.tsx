@@ -23,7 +23,7 @@ export default function Plans() {
                 <p className="text-xl text-gray-400">$0/m</p>
                 <p className="text-sm text-gray-400 mb-6">No credit card required</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://forms.gle/Sz1u1LiLUvJGG8My6">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://forms.gle/Sz1u1LiLUvJGG8My6">Try Now</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" target="_blank" href="https://calendly.com/cloudzap/introduction">Book a call</a>
@@ -57,10 +57,10 @@ export default function Plans() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Standard</h3>
                 <p className="text-xl text-gray-400 mb-4">One request at a time. Pause or cancel anytime.</p>
-                <p className="text-xl text-gray-400">$499/m</p>
-                <p className="text-sm text-gray-400 mb-6">Pause or cancel anytime</p>
+                <p className="text-xl text-gray-400">$2,499/m</p>
+                <p className="text-sm text-gray-400 mb-6">Start with a 2 week free trial</p>
                 <div data-aos="fade-up" data-aos-delay="400">
-                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/28o4iz07jgcueVabIT">Get Started</a>
+                  <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/4gw3ev9HTe4m00g5ku">Hire Engineer</a>
                 </div>
                 <div className="text-gray-700 font-medium mt-1 mb-4 pt-5">
                   <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out" href="https://calendly.com/cloudzap/introduction" target="_blank">Book a call</a>

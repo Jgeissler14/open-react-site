@@ -73,7 +73,7 @@ export default function Zigzag() {
                   </ul> */}
                   <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div data-aos="fade-up" data-aos-delay="400">
-                    <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-2" href="#plans">Speak To Our Team Today</a>
+                    <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-2" href="#plans">Hire Engineer</a>
                   </div>
                 </div>
                 </div>

@@ -57,7 +57,7 @@ export default function Plans() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h3 className="h3 mb-3">Standard</h3>
                 <p className="text-xl text-gray-400 mb-4">One request at a time. Pause or cancel anytime.</p>
-                <p className="text-xl text-gray-400">$2,499/m</p>
+                <p className="text-xl text-gray-400">$2,495/m</p>
                 <p className="text-sm text-gray-400 mb-6">Start with a 2 week free trial</p>
                 <div data-aos="fade-up" data-aos-delay="400">
                   <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full sm:w-auto sm:mb-0" target="_blank" href="https://buy.stripe.com/4gw3ev9HTe4m00g5ku">Hire Engineer</a>

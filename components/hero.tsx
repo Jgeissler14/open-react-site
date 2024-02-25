@@ -24,9 +24,9 @@ export default function Hero() {
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h1 mb-4 text-purple-500" data-aos="fade-up">Your startup's devops department</h1>
+            <h1 className="h1 mb-4 text-purple-500" data-aos="fade-up">DevOps for SMBs</h1>
             <p className="text-xl text-white-400 mb-8" data-aos="fade-up" data-aos-delay="200">
-            Subscription to a guild of world-class engineers, ready to embed on your team today.
+              We help you deploy faster, cut costs, monitor, and secure your infrastructure to maximize productivity and accelerate growth
               </p>
             <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">

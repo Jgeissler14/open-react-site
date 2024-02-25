@@ -15,12 +15,12 @@ export default function Offer() {
               <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6" data-aos="fade-right">
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
                 <h1 className="text-xl mb-4">What we offer</h1>
-                    <p className="h2 text-purple-500 mb-4">INFRASTRUCTURE</p>
+                    <p className="h2 text-purple-500 mb-4">DevOps</p>
                   <p className="text-xl text-gray-400 mb-4">
                     We do one thing - we just do it with a monastic focus and better than anyone else. If you want an agency that offers a full service solution of everything that won't move the needle forward, we're not for you. 
                </p>
                <p className="text-xl text-gray-400 mb-8"> 
-                If you want an agency where with two clicks, you can get a clear breakdown of your cloud infrastructure, we're for you.
+                If you want an team to bring DevOps to your cloud and kubernetes environments, we're for you.
                   </p>
                   <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
                   <div data-aos="fade-up" data-aos-delay="400">

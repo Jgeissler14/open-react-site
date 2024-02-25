@@ -19,8 +19,8 @@ const architects_daughter = Architects_Daughter({
 })
 
 export const metadata = {
-  title: 'CloudZap - Cloud Engineering Agency',
-  description: 'AWS infrastructure subscriptions to scale your business',
+  title: 'CloudZap - DevOps for SMBs',
+  description: 'On demand DevOps to scale your business',
 }
 
 export default function RootLayout({

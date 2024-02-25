@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'CloudZap - Cloud Engineering Agency',
-  description: 'AWS infrastructure subscriptions to scale your business',
+  title: 'CloudZap - DevOps for SMBs',
+  description: 'On demand DevOps to scale your business',
 }
 import Script from 'next/script'
 import Hero from '@/components/hero'

@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'CloudZap - DevOps for SMBs',
-  description: 'On demand DevOps to scale your business',
+  title: 'CloudZap',
+  description: 'Lower your data costs',
 }
 import Script from 'next/script'
 import Hero from '@/components/hero'
@@ -11,6 +11,7 @@ import Testimonials from '@/components/testimonials'
 import Plans from '@/components/plans'
 import Faq from '@/components/faq'
 import Offer from '@/components/offer'
+import Calendly from '@/components/calendly'
 
 export default function Home() {
   return (
@@ -32,12 +33,13 @@ export default function Home() {
     />
       <Hero />
       {/* <Newsletter /> */}
-      <Zigzag />
-      <Offer />
-      <Features />
+      {/* <Zigzag /> */}
+      {/* <Offer /> */}
+      {/* <Features /> */}
       {/* <Testimonials /> */}
-      <Plans />
-      <Faq />
+      {/* <Plans /> */}
+      {/* <Faq /> */}
+      <Calendly />
     </>
   )
 }

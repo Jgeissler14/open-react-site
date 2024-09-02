@@ -16,7 +16,7 @@ export default function Home() {
                 <main className="container mx-auto">
                     <div className="relative md:mt-24 mx-auto w-full max-w-4xl pt-4 text-center">
                         <div className="justify-center hidden md:flex">
-                            <div
+                            {/* <div
                                 className="flex flex-row items-center justify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
                                 <Badge className="font-semibold">New</Badge>
                                 <h5>Announce your new feature here</h5>
@@ -24,20 +24,12 @@ export default function Home() {
                                     View all features
                                     <ArrowRightIcon className="w-6 h-6 ml-2"/>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
-                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Create perfect
-                            projects
-                            with
-                            this landing
-                            page!</h1>
-                        <p className="mx-auto my-4 text-sm w-full max-w-xl text-center font-medium leading-relaxed tracking-wide">
-                            This is a landing page template that you can use to create a beautiful website. It is
-                            designed
-                            to be
-                            easy to use and customize. You can use this template to create a landing page for your app,
-                            product,
-                            or service. It is built with Next.js, Tailwind CSS, and TypeScript.
+                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Faster, compliant, and cost-effective Azure migrations</h1>
+                        <p className="mx-auto my-4 text-sm w-full text-center font-medium leading-relaxed tracking-wide">
+                        We guide federal contractors through every step of their Azure migration, leveraging DevOps to ensure your cloud environment is fully compliant with federal regulations. 
+                        Our approach reduces costs by optimizing infrastructure and automating processes, while also accelerating deployment times.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
                             <Link href="/#pricing">

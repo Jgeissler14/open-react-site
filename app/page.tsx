@@ -144,7 +144,7 @@ export default function Home() {
                                     </CardHeader>
                                     <CardContent>
                                         <Link href="/#pricing">
-                                            <Button className="w-full" href="/#pricing" variant={plan.fancy ? "default" : "secondary"}>
+                                            <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
                                                 Get started
                                             </Button>
                                         </Link>

@@ -13,7 +13,7 @@ const Navbar = () => {
                         Cloudzap
                     </h1>
                 </Link>
-                <ul className="md:flex flex-row justify-between gap-8 hidden">
+                {/* <ul className="md:flex flex-row justify-between gap-8 hidden">
                     {navLinks.map((link) => (
                         <li key={link.title}>
                             <Link href={link.href
@@ -22,7 +22,7 @@ const Navbar = () => {
                             </Link>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
 
                 <div className="flex flex-row justify-end space-x-2">
                     <ThemeChanger/>

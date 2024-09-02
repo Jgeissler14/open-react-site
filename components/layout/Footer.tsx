@@ -1,6 +1,7 @@
 import {footerLinks} from "@/data/footerLinks";
 import Link from "next/link";
 import {Button} from "@/components/ui/button";
+import React from "react";
 
 const Footer = () => {
     return (
@@ -12,9 +13,11 @@ const Footer = () => {
                         or service.
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
-                        <Button>
-                            Get started
-                        </Button>
+                        <Link href="/#pricing">
+                            <Button>
+                                Get started
+                            </Button>
+                        </Link>
                         <Button variant="secondary">
                             Learn more
                         </Button>

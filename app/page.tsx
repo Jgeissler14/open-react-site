@@ -7,6 +7,7 @@ import {Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle} f
 import {features} from "@/data/features";
 import {pricing} from "@/data/pricing";
 import {CircleCheck} from "lucide-react";
+import React from "react";
 
 export default function Home() {
     return (
@@ -39,9 +40,11 @@ export default function Home() {
                             or service. It is built with Next.js, Tailwind CSS, and TypeScript.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
-                            <Button>
-                                Get Started
-                            </Button>
+                            <Link href="/#pricing">
+                                <Button>
+                                    Get started
+                                </Button>
+                            </Link>
                             <Button variant="secondary">
                                 Learn More
                             </Button>
@@ -118,7 +121,9 @@ export default function Home() {
             {/* Pricing */}
 
             <section
-                className="border-b dark border-border bg-background">
+                className="border-b dark border-border bg-background"
+                id="pricing"
+                >
                 <div className="container mx-auto text-center">
                     <div className="py-14">
                         <h2 className="text-4xl font-extrabold my-4 text-foreground">
@@ -146,9 +151,11 @@ export default function Home() {
                                         <h5 className="text-2xl font-bold">{plan.price}</h5>
                                     </CardHeader>
                                     <CardContent>
-                                        <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
-                                            Get Started
-                                        </Button>
+                                        <Link href="/#pricing">
+                                            <Button className="w-full" href="/#pricing" variant={plan.fancy ? "default" : "secondary"}>
+                                                Get started
+                                            </Button>
+                                        </Link>
                                     </CardContent>
                                     <CardFooter>
                                         <ul className="mt-4">

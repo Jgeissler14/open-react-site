@@ -2,6 +2,7 @@ import Link from "next/link";
 import {Button} from "@/components/ui/button";
 import {navLinks} from "@/data/navLinks";
 import {ThemeChanger} from "@/app/Theme-changer";
+import React from "react";
 
 const Navbar = () => {
     return (
@@ -9,7 +10,7 @@ const Navbar = () => {
             <div className="container flex flex-row justify-between items-center">
                 <Link href="/">
                     <h1 className="text-2xl">
-                        Logo
+                        Cloudzap
                     </h1>
                 </Link>
                 <ul className="md:flex flex-row justify-between gap-8 hidden">
@@ -25,9 +26,11 @@ const Navbar = () => {
 
                 <div className="flex flex-row justify-end space-x-2">
                     <ThemeChanger/>
-                    <Button>
-                        Get Started
-                    </Button>
+                    <Link href="/#pricing">
+                        <Button>
+                            Get started
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </nav>

@@ -3,8 +3,7 @@ import * as React from "react"
 function SvgComponent() {
   return (
     <svg
-      width={627}
-      height={331}
+      className="w-full"
       viewBox="0 0 627 331"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

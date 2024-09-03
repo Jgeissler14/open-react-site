@@ -24,8 +24,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
-                    <p>© 2024 SAAS template. All rights reserved.</p>
-                    <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
+                    <p>© {new Date().getFullYear()} Cloudzap. All rights reserved.</p>
+                    {/* <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                         {footerLinks.map((item) => (
                             <li key={item.label}>
                                 <Link href={item.href}>
@@ -33,7 +33,7 @@ const Footer = () => {
                                 </Link>
                             </li>
                         ))}
-                    </ul>
+                    </ul> */}
                 </div>
             </div>
         </footer>

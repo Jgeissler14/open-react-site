@@ -1,10 +1,10 @@
 export const footerLinks = [
     {
+        title: "Home",
         href: "/",
-        label: "Home",
     },
     {
-        href: "/about",
-        label: "About",
-    },
+        title: "Blog",
+        href: "https://blog.cloudzap.co",
+    }
 ];

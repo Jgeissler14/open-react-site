@@ -8,6 +8,7 @@ import {features} from "@/data/features";
 import {pricing} from "@/data/pricing";
 import {CircleCheck} from "lucide-react";
 import React from "react";
+import SvgComponent from "./trusted_compliance";
 
 export default function Home() {
     return (
@@ -17,8 +18,8 @@ export default function Home() {
                     <div className="relative md:mt-24 mx-auto w-full max-w-4xl pt-4 text-center">
                         <div className="justify-center hidden md:flex">
                             {/* <div
-                                className="flex flex-row items-center justify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
-                                <Badge className="font-semibold">New</Badge>
+                                className="flex flex-row items-center j</svg>ustify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
+                                <Badge cl assName="font-semibold">New</Badge>
                                 <h5>Announce your new feature here</h5>
                                 <Link href="/" className="flex flex-row items-center">
                                     View all features
@@ -55,9 +56,9 @@ export default function Home() {
                     </div>
 
                     <div className="max-w-4xl mx-auto mb-8">
-                        <Image className="w-full" src="/dashboard-ui.png" alt="Dashboard ui design" priority
-                               width={1200}
-                               height={800}/>
+                        <SvgComponent className="w-full" src="./trusted_compliance.tsx" alt="Globe" priority
+                                width={1200}
+                                height={800}/>
                     </div>
                 </main>
             </div>

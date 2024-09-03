@@ -56,9 +56,7 @@ export default function Home() {
                     </div>
 
                     <div className="max-w-4xl mx-auto mb-8">
-                        <SvgComponent className="w-full"
-                                width={1200}
-                                height={800}/>
+                        <SvgComponent />
                     </div>
                 </main>
             </div>

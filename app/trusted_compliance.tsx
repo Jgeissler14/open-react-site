@@ -8,7 +8,6 @@ function SvgComponent() {
       viewBox="0 0 627 331"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
     >
       <path d="M0.870117 0H626.370117V331H0.870117z" />
       <path

@@ -56,7 +56,7 @@ export default function Home() {
                     </div>
 
                     <div className="max-w-4xl mx-auto mb-8">
-                        <SvgComponent className="w-full" src="./trusted_compliance.tsx" alt="Globe" priority
+                        <SvgComponent className="w-full" src="./trusted_compliance.tsx"
                                 width={1200}
                                 height={800}/>
                     </div>

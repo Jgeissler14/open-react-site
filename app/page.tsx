@@ -8,7 +8,7 @@ import {features} from "@/data/features";
 import {pricing} from "@/data/pricing";
 import {CircleCheck} from "lucide-react";
 import React from "react";
-import SvgComponent from "/public/trusted_compliance";
+import SvgComponent from "./trusted_compliance";
 
 export default function Home() {
     return (

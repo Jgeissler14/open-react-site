@@ -67,16 +67,15 @@ export default function Home() {
                 className="border-b border-border bg-gradient-to-b from-background to-transparent via-background via-90% relative">
                 <div className="container mx-auto text-center">
                     <div className="my-24">
-                        <h5 className="text-primary">
+                        {/* <h5 className="text-primary">
                             WHY CHOOSE US
-                        </h5>
+                        </h5> */}
                         <h2 className="text-4xl font-extrabold my-4">
-                            Build better websites with us
+                            Expert Cloud Solutions for Federal Contractors
                         </h2>
 
                         <p className="mx-auto my-4 text-sm w-full max-w-md bg-transparent text-center font-medium leading-relaxed tracking-wide text-muted-foreground">
-                            Show off your features or services in a beautiful way. This section is perfect for
-                            showcasing
+                            Fast, compliant, and scalable Azure services designed to optimize your cloud infrastructure and reduce costs.
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4 mt-12">

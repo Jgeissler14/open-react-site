@@ -9,8 +9,7 @@ const Footer = () => {
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
                     <p>
-                        SAAS template is a modern, beautiful, and responsive template designed to showcase your product
-                        or service.
+                        Cloudzap is a DevOps platform for federal contractors on Azure. We provide fast, secure Azure migrations, DevOps for compliance and savings, and scalable cloud deployments.
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
                         <Link href="/#pricing">
@@ -18,9 +17,11 @@ const Footer = () => {
                                 Get started
                             </Button>
                         </Link>
-                        <Button variant="secondary">
-                            Learn more
-                        </Button>
+                        <Link href="https://blog.cloudzap.co">
+                            <Button variant="secondary">
+                                Blog
+                            </Button>
+                        </Link>
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">

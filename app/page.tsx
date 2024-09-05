@@ -141,7 +141,7 @@ export default function Home() {
                                         <h5 className="text-2xl font-bold">{plan.price}</h5>
                                     </CardHeader>
                                     <CardContent>
-                                        <Link href="/#pricing">
+                                        <Link href={plan.link}>
                                             <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
                                                 Get started
                                             </Button>

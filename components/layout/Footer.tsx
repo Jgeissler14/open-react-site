@@ -17,7 +17,7 @@ const Footer = () => {
                                 Get started
                             </Button>
                         </Link>
-                        <Link href="https://calendly.com/cloudzap-josh/30min">
+                        <Link href="https://calendly.com/jrgeissler14/30min">
                             <Button variant="secondary">
                                 Book a meeting
                             </Button>

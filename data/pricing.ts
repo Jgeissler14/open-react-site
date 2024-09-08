@@ -21,6 +21,6 @@ export const pricing = [
         features: ["Architecture Design", "Terraform", "Documentation"],
         description: "This is an ad-hoc plan for custom requirements.",
         fancy: false,
-        link: "https://calendly.com/cloudzap-josh/30min",
+        link: "https://calendly.com/jrgeissler14/30min",
     },
 ];

@@ -27,7 +27,7 @@ const Footer = () => {
                                 YouTube
                             </Button>
                         </Link>
-                        <Link href="https://blog.cloudzap.co">
+                        <Link href="https://medium.com/@josh_geissler">
                             <Button variant="secondary">
                                 Blog
                             </Button>

@@ -5,7 +5,12 @@ import React from "react";
 import Navbar from "@/components/layout/Navbar";
 import {ThemeProvider} from "@/app/theme-provider";
 import Footer from "@/components/layout/Footer";
-const font = Mulish({subsets: ["latin"]});
+import { DynaPuff } from "@next/font/google"
+
+const font = DynaPuff({
+    subsets: ["latin"],
+    weight: '400',
+});
 
 export const metadata: Metadata = {
     title: "Cloudzap",

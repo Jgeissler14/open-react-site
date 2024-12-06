@@ -15,7 +15,7 @@ export default function Home() {
         <>
             <div className="border-b border-border">
                 <main className="container mx-auto">
-                    <div className="relative md:mt-24 mx-auto w-full max-w-4xl pt-4 text-center">
+                    <div className="relative md:mt-24 mx-auto w-full max-w-4xl text-center">
                         <div className="justify-center hidden md:flex">
                             {/* <div
                                 className="flex flex-row items-center j</svg>ustify-center gap-5 p-1 text-xs bg-card/60 backdrop-blur-lg rounded-md border border-border">
@@ -97,14 +97,6 @@ export default function Home() {
                             ))}
                         </div>
                     </div>
-                </div>
-                <div
-                    className="absolute top-0 -z-10 max-h-full w-full h-full blur-2xl">
-                    <div
-                        className="absolute bottom-0 left-0 w-1/2 h-56 bg-violet-600 rounded-full mix-blend-multiply opacity-70 animate-blob filter blur-3xl">
-                    </div>
-                    <div
-                        className="absolute bottom-0 right-0 w-1/2 h-56 bg-sky-600 rounded-full mix-blend-multiply opacity-70 animate-blob delay-1000 filter blur-3xl"></div>
                 </div>
             </section>
 

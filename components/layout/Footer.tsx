@@ -8,18 +8,10 @@ const Footer = () => {
         <footer className="pt-10">
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="space-y-6 sm:max-w-md sm:mx-auto sm:text-center">
-                    <p>
-                        Cloudzap is a DevOps service for federal contractors on Azure. We provide fast, secure Azure migrations, DevOps for compliance and savings, and scalable cloud deployments.
-                    </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:justify-center sm:space-y-0">
-                        <Link href="/#pricing">
-                            <Button>
-                                Get started
-                            </Button>
-                        </Link>
                         <Link href="https://calendly.com/jrgeissler14/30min">
                             <Button variant="secondary">
-                                Book a meeting
+                                Book a call
                             </Button>
                         </Link>
                         <Link href="https://www.youtube.com/@JoshGeissler">

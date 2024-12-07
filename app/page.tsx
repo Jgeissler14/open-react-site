@@ -27,10 +27,9 @@ export default function Home() {
                                 </Link>
                             </div> */}
                         </div>
-                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Faster, compliant, and cost-effective Azure migrations</h1>
-                        <p className="mx-auto my-4 text-sm w-full text-center font-medium leading-relaxed tracking-wide">
-                        We guide federal contractors through every step of their Azure migration, leveraging DevOps to ensure your cloud environment is fully compliant with federal regulations. 
-                        Our approach reduces costs by optimizing infrastructure and automating processes, while also accelerating deployment times.
+                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Automate, Secure, and Scale your cloud</h1>
+                        <p className="mx-auto my-4 text-md w-full text-center font-medium leading-relaxed tracking-wide">
+                            Cloudzap helps you take a unified approach to infrastructure management with a devops done with you service.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
                             <Link href="/#pricing">
@@ -67,15 +66,12 @@ export default function Home() {
                 className="border-b border-border bg-gradient-to-b from-background to-transparent via-background via-90% relative">
                 <div className="container mx-auto text-center">
                     <div className="my-24">
-                        {/* <h5 className="text-primary">
-                            WHY CHOOSE US
-                        </h5> */}
                         <h2 className="text-4xl font-extrabold my-4">
-                            Expert Cloud Solutions for Federal Contractors
+                            DevOps Engineering Done With You
                         </h2>
 
                         <p className="mx-auto my-4 text-sm w-full max-w-md bg-transparent text-center font-medium leading-relaxed tracking-wide text-muted-foreground">
-                            Fast, compliant, and scalable Azure services designed to optimize your cloud infrastructure and reduce costs.
+                            Scalable, automated, and secure cloud environments with DevOps practices tailored for your team.
                         </p>
 
                         <div className="flex flex-col md:flex-row gap-4 mt-12">
@@ -100,6 +96,7 @@ export default function Home() {
                 </div>
             </section>
 
+
             {/* Pricing */}
 
             <section
@@ -113,8 +110,14 @@ export default function Home() {
                         </h2>
 
                         <p className="mx-auto my-4 text-sm w-full max-w-md bg-transparent text-center font-medium leading-relaxed tracking-wide text-muted-foreground">
-                            Choose a plan that works best for you. You can always upgrade or downgrade your plan later.
+                            Choose a plan that works best for you.
+                            If you're not satisfied with the results, get your money back
                         </p>
+                        <Link href="https://calendly.com/jrgeissler14/30min">
+                            <Button className="w-1/3 mb-8" variant="default">
+                                Book a call
+                            </Button>
+                        </Link>
                         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
                             {pricing.map((plan) => (
                                 <Card key={plan.title} className="w-full mx-auto max-w-xl text-left relative">

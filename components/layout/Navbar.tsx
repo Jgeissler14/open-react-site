@@ -16,7 +16,7 @@ const Navbar = () => {
                         alt="cloudzap logo"
                         width={100}
                         height={80}
-                        />
+                         />
                 </Link>
                 <ul className="md:flex flex-row justify-between gap-8 hidden">
                     {navLinks.map((link) => (

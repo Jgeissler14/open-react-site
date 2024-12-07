@@ -1,20 +1,20 @@
-import {HandIcon, Pencil1Icon, Pencil2Icon, RocketIcon} from "@radix-ui/react-icons";
-import {Handshake} from "lucide-react";
+import { HandIcon, Pencil1Icon, Pencil2Icon, RocketIcon } from "@radix-ui/react-icons";
+import { Handshake } from "lucide-react";
 
 export const features = [
     {
-        title: "Fast, Secure Azure Migrations",
-        description: "Seamless cloud migrations for federal contractors, ensuring quick, cost-effective transitions while meeting all compliance requirements.",
+        title: "Infrastructure as Code",
+        description: "We guide you through the setup and implementation of Infrastructure as Code (IaC) using tools like Terraform, Packer, and Ansible to ensure safe, repeatable, and scalable infrastructure management.",
         icon: <RocketIcon className="w-6 h-6"/>,
     },
     {
-        title: "DevOps for Compliance & Savings",
-        description: "Leverage DevOps to automate compliance and optimize costs, making your Azure environment more efficient and secure.",
+        title: "Build Configuration",
+        description: "Collaborate with us to design and configure your cloud environment using best practices for automation, ensuring efficient resource management and fewer errors.",
         icon: <Pencil2Icon className="w-6 h-6"/>,
     },
     {
-        title: "Scalable Cloud Deployments",
-        description: "We build scalable Azure solutions that accelerate deployments and ensure your federal projects run smoothly and securely.",
+        title: "CI/CD Implementation",
+        description: "We help you implement Continuous Integration and Continuous Delivery (CI/CD) pipelines to streamline development, testing, and deployment cycles with minimal downtime.",
         icon: <Handshake className="w-6 h-6"/>,
     },
 ];

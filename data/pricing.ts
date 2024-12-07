@@ -9,7 +9,7 @@ export const pricing = [
         ],
         description: "Receive expert guidance on how to plan and implement IaC, build management, and CI/CD for your cloud infrastructure, with actionable strategies and continuous support.",
         fancy: false,
-        link: "https://buy.stripe.com/3cs8Al7nM43J33acMS",
+        link: "https://buy.stripe.com/3csg2N37w7fV7jqcMV",
     },
     {
         title: "Pro",
@@ -25,7 +25,7 @@ export const pricing = [
         ],
         description: "We'll build and configure your new or existing cloud infrastructure using best practices in IaC, build management, and CI/CD, and continuous support for changes.",
         fancy: true,
-        link: "https://buy.stripe.com/28oeYJcI62ZFeLS5kr",
+        link: "https://buy.stripe.com/00g8AlgYmfMrfPWfZ6",
     },
     {
         title: "Ad-Hoc",

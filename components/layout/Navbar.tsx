@@ -2,6 +2,8 @@ import Link from "next/link";
 import {Button} from "@/components/ui/button";
 import {navLinks} from "@/data/navLinks";
 import {ThemeChanger} from "@/app/Theme-changer";
+import Image from 'next/image'
+
 import React from "react";
 
 const Navbar = () => {
@@ -9,9 +11,12 @@ const Navbar = () => {
         <nav className="py-4 bg-background/30 backdrop-blur-sm">
             <div className="container flex flex-row justify-between items-center">
                 <Link href="/">
-                    <h1 className="text-2xl">
-                        Cloudzap
-                    </h1>
+                    <Image
+                        src="/cloudzap-high-resolution-logo-transparent.png"
+                        alt="cloudzap logo"
+                        width={100}
+                        height={80}
+                        />
                 </Link>
                 <ul className="md:flex flex-row justify-between gap-8 hidden">
                     {navLinks.map((link) => (

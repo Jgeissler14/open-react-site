@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "helm-cloudzap.fullname" . }}
+  name: {{ template "helm.fullname" . }}
   labels:
-    app: {{ template "helm-cloudzap.name" . }}
-    chart: {{ template "helm-cloudzap.chart" . }}
+    app: {{ template "helm.name" . }}
+    chart: {{ template "helm.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -12,12 +12,12 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: {{ template "helm-cloudzap.name" . }}
+      app: {{ template "helm.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "helm-cloudzap.name" . }}
+        app: {{ template "helm.name" . }}
         release: {{ .Release.Name }}
     spec:
       containers:

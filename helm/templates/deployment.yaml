@@ -1,10 +1,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ template "helm.fullname" . }}
+  name: {{ template "helm-open-react-site.fullname" . }}
   labels:
-    app: {{ template "helm.name" . }}
-    chart: {{ template "helm.chart" . }}
+    app: {{ template "helm-open-react-site.name" . }}
+    chart: {{ template "helm-open-react-site.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -12,12 +12,12 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: {{ template "helm.name" . }}
+      app: {{ template "helm-open-react-site.name" . }}
       release: {{ .Release.Name }}
   template:
     metadata:
       labels:
-        app: {{ template "helm.name" . }}
+        app: {{ template "helm-open-react-site.name" . }}
         release: {{ .Release.Name }}
     spec:
       containers:

@@ -2,10 +2,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: {{ template "helm.fullname" . }}
+  name: {{ template "helm-open-react-site.fullname" . }}
   labels:
-    app: {{ template "helm.name" . }}
-    chart: {{ template "helm.chart" . }}
+    app: {{ template "helm-open-react-site.name" . }}
+    chart: {{ template "helm-open-react-site.chart" . }}
     release: {{ .Release.Name }}
     heritage: {{ .Release.Service }}
 spec:
@@ -16,5 +16,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-    app: {{ template "helm.name" . }}
+    app: {{ template "helm-open-react-site.name" . }}
     release: {{ .Release.Name }}

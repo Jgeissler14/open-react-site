@@ -5,8 +5,8 @@
 replicaCount: 1
  
 image:
-  repository: ghcr.io/jgeissler14/open-react-site:latest
-  tag: 0.1
+  repository: ghcr.io/jgeissler14/open-react-site
+  tag: "latest"
   pullPolicy: IfNotPresent
 
 containerPort: 80

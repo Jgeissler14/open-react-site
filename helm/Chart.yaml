@@ -1,5 +1,5 @@
 apiVersion: v2
-name: helm-open-react-site
+name: helm-cloudzap
 description: A Helm chart for Kubernetes
 
 type: application

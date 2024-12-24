@@ -5,7 +5,7 @@
 replicaCount: 1
  
 image:
-  repository: ghcr.io/jgeissler14/open-react-site:latest
+  repository: cloudzap.io/jgeissler14/cloudzap
   tag: 0.1
   pullPolicy: IfNotPresent
 

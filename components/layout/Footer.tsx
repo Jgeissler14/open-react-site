@@ -19,11 +19,6 @@ const Footer = () => {
                                 YouTube
                             </Button>
                         </Link>
-                        <Link href="https://blog.cloudzap.co">
-                            <Button variant="secondary">
-                                Blog
-                            </Button>
-                        </Link>
                     </div>
                 </div>
                 <div className="mt-10 py-10 border-t items-center justify-between sm:flex">

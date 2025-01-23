@@ -11,8 +11,4 @@ export const navLinks = [
         title: "YouTube",
         href: "https://www.youtube.com/@JoshGeissler",
     },
-    {
-        title: "Blog",
-        href: "https://blog.cloudzap.co",
-    }
 ];

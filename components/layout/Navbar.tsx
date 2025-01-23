@@ -30,7 +30,7 @@ const Navbar = () => {
                 </ul>
 
                 <div className="flex flex-row justify-end space-x-2">
-                    <ThemeChanger/>
+                    {/* <ThemeChanger/> */}
                     <Link href="/#pricing">
                         <Button>
                             Get started

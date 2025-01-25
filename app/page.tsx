@@ -111,7 +111,7 @@ export default function Home() {
                             If you're not satisfied with the results, get your money back
                         </p>
                         <Link href="https://calendly.com/jrgeissler14/30min">
-                            <Button className="w-1/6 mb-8 mx-auto bg-foreground text-white">
+                            <Button className="w-1/6 min-w-[150px] mb-8 mx-auto bg-foreground text-white">
                                 Book a call
                             </Button>
                         </Link>

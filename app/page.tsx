@@ -97,12 +97,12 @@ export default function Home() {
             {/* Pricing */}
 
             <section
-                className="border-b dark border-border bg-background"
+                className="border-b border-border bg-background"
                 id="pricing"
                 >
                 <div className="container mx-auto text-center">
                     <div className="py-14">
-                        <h2 className="text-4xl font-extrabold my-4 text-foreground">
+                        <h2 className="text-4xl font-extrabold my-4 text-black inline-block">
                             Pricing Plans
                         </h2>
 
@@ -111,7 +111,7 @@ export default function Home() {
                             If you're not satisfied with the results, get your money back
                         </p>
                         <Link href="https://calendly.com/jrgeissler14/30min">
-                            <Button className="w-1/3 mb-8" variant="default">
+                            <Button className="w-1/6 mb-8 mx-auto bg-foreground text-white">
                                 Book a call
                             </Button>
                         </Link>
@@ -127,14 +127,14 @@ export default function Home() {
                                         <CardTitle className="text-2xl">
                                             {plan.title}
                                         </CardTitle>
-                                        <CardDescription className="mt-4">
+                                        <CardDescription className="mt-4 text-black">
                                             {plan.description}
                                         </CardDescription>
-                                        <h5 className="text-2xl font-bold">{plan.price}</h5>
+                                        <h5 className="text-2xl font-bold  text-black">{plan.price}</h5>
                                     </CardHeader>
                                     <CardContent>
                                         <Link href={plan.link}>
-                                            <Button className="w-full" variant={plan.fancy ? "default" : "secondary"}>
+                                            <Button className="w-full dark" variant={plan.fancy ? "default" : "secondary"}>
                                                 Get started
                                             </Button>
                                         </Link>

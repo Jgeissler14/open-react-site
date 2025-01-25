@@ -36,7 +36,7 @@ export const pricing = [
             "CI/CD Configuration",
             "Documentation & Guidance",
         ],
-        description: "Receive tailored, one-time cloud solutions for implementing IaC, build management, and CI/CD, with continuous support",
+        description: "Receive tailored, one-time cloud solutions for implementing IaC, build management, and CI/CD, with continuous support. Plus get a discount if you decide to upgrade to a monthly plan.",
         fancy: false,
         link: "https://calendly.com/jrgeissler14/30min",
     },

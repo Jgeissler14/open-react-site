@@ -27,31 +27,25 @@ export default function Home() {
                                 </Link>
                             </div> */}
                         </div>
-                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight">Automate, Secure, and Scale your cloud</h1>
-                        <p className="mx-auto my-4 text-md w-full text-center font-medium leading-relaxed tracking-wide">
+                        <h1 className="md:text-7xl my-4 font-extrabold text-4xl md:leading-tight text-black">
+                            Automate, Secure, and Scale <span className="text-foreground">your cloud</span>
+                        </h1>
+                        <p className="mx-auto my-4 text-md w-full text-center text-black font-medium leading-relaxed tracking-wide">
                             Cloudzap helps you take a unified approach to infrastructure management with a devops done with you service.
                         </p>
                         <div className="flex flex-row justify-center items-center space-x-4 my-8">
                             <Link href="/#pricing">
-                                <Button>
+                                <Button >
                                     Get started
                                 </Button>
                             </Link>
-                            <Button variant="secondary">
-                                Learn More
-                            </Button>
+                            <Link href="https://calendly.com/jrgeissler14/30min">
+                                <Button variant="secondary">
+                                    Learn More
+                                </Button>
+                            </Link>
                         </div>
 
-                        <div
-                            className="absolute top-0 -z-10 max-h-full max-w-screen-lg w-full h-full blur-2xl">
-                            <div
-                                className="absolute top-24 left-24 w-56 h-56 bg-violet-600 rounded-full mix-blend-multiply opacity-70 animate-blob filter blur-3xl">
-                            </div>
-                            <div
-                                className="absolute hidden md:block bottom-2 right-1/4 w-56 h-56 bg-sky-600 rounded-full mix-blend-multiply opacity-70 animate-blob delay-1000 filter blur-3xl"></div>
-                            <div
-                                className="absolute hidden md:block bottom-1/4 left-1/3 w-56 h-56 bg-pink-600 rounded-full mix-blend-multiply opacity-70 animate-blob delay-500 filter blur-3xl"></div>
-                        </div>
                     </div>
 
                     <div className="max-w-4xl mx-auto mb-8">
@@ -66,8 +60,11 @@ export default function Home() {
                 className="border-b border-border bg-gradient-to-b from-background to-transparent via-background via-90% relative">
                 <div className="container mx-auto text-center">
                     <div className="my-24">
-                        <h2 className="text-4xl font-extrabold my-4">
-                            DevOps Engineering Done With You
+                        <h2 className="text-4xl font-extrabold my-4 text-black inline-block mr-2">
+                            DevOps Engineering Done
+                        </h2>
+                        <h2 className="text-4xl font-extrabold my-4 inline-block">
+                            With You
                         </h2>
 
                         <p className="mx-auto my-4 text-sm w-full max-w-md bg-transparent text-center font-medium leading-relaxed tracking-wide text-muted-foreground">

@@ -12,7 +12,7 @@ function SvgComponent() {
       <path
         opacity={0.75}
         d="M509.685 143.392h2.658v-.428c-.477.107-.963.198-1.44.255a5.472 5.472 0 00-1.218.173zM402.828 142.635v.699a.921.921 0 00.115-.37c.009-.09-.041-.206-.115-.329zM57.505 84.997c-.576.297-1.078 1.095-1.752 2.691a22.389 22.389 0 01-1.194 2.198h2.955v-4.889h-.009zM345.207 90.272c-.238.288-.321.502-.288.725.033.205.173.403.477.633V90a1.623 1.623 0 01-.189.272zM310.48 72.094h-.65c.206.033.411.041.65 0zM305.691 71.534c-.058.025-.116.042-.173.066h3.036c-1.028-.502-1.654-.452-2.863-.066zM303.181 70.061c.205.017.345-.189.452-.353.099-.165.198-.247.296-.264.124-.024.297.05.535.239.329.28.749.288 1.144.016.51-.353.872-1.144.601-1.86-.115-.28-.239-.485-.445-.55-.263-.091-.608.057-1.127.345a6.707 6.707 0 01-1.473.642v1.794c0-.009.008-.009.017-.009zM303.156 70.86v.732h.675c-.198-.156-.404-.395-.675-.732zM305.394 64.63h.066c-.025-.04-.041-.082-.066-.131v.131zM318.586 59.882c.411.173.683.247.872.247a.409.409 0 00.255-.074c.189-.124.222-.412.222-.7a.68.68 0 00-.23-.494c-.206-.189-.51-.28-.831-.246-.576.057-.938.263-.98.55-.032.273.223.528.692.717zM170.542 89.392l.222-.033h-2.732c.749.173 1.596.19 2.51.033zM123.849 136.907c.33.371.708.609.971.618h.009c.115 0 .189-.05.222-.091a.342.342 0 00.09-.337c-.041-.165-.189-.305-.403-.371-.14-.041-.247-.205-.288-.444h-.996c.107.222.231.436.395.625zM134.498 142.125c.066 0 .14-.008.214-.008.65-.05 1.358-.256 1.358-.577 0-.131-.074-.312-.436-.411-.576-.156-1.679-.041-1.959.395 0 .008-.008.008-.008.008-.058.107-.066.214 0 .313.099.181.411.28.831.28zM120.944 144.248c1.375.897 1.984 1.44 2.041 1.802a.349.349 0 01-.082.288c-.091.115-.214.296-.123.469.123.247.584.329 1.777.329 1.202 0 2.164.173 2.271.28h.009c.164.181.477.263.905.263.568 0 1.341-.156 2.23-.452.576-.173.889-.263.913-.502.041-.379-.79-.823-3.876-2.469a113.667 113.667 0 00-2.888-1.498h-5.818c.798.371 1.654.856 2.641 1.49zM112.188 142.767h-1.744c.008.131.033.279.148.353.206.14.592.033 1.596-.353zM133.173 148.379c-.09.14-.041.321.05.535h6.575c-1.284-.486-2.946-.831-4.312-.831-1.58-.009-2.148.016-2.313.296zM129.988 143.54c.042.157.256.198.897.198.593 0 1.21-.214 1.21-.585 0-.189-.049-.312-.115-.395h-1.037a5.657 5.657 0 00-.527.305c-.312.197-.469.337-.428.477zM526.785 104.246v-.486c-.099.115-.156.214-.156.272.008.033.057.107.156.214z"
-        fill="hsl(var(--primary))"
+        fill="hsl(var(--black))"
       />
       <path d="M285.628 71.14l1.538 1.538-1.538 1.54-1.539-1.54 1.539-1.539z" />
       <path
@@ -104,9 +104,9 @@ function SvgComponent() {
           y2={475.058}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint1_linear"
@@ -116,9 +116,9 @@ function SvgComponent() {
           y2={408.121}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint2_linear"
@@ -128,9 +128,9 @@ function SvgComponent() {
           y2={449.075}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint3_linear"
@@ -140,9 +140,9 @@ function SvgComponent() {
           y2={570.884}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint4_linear"
@@ -152,9 +152,9 @@ function SvgComponent() {
           y2={461.822}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint5_linear"
@@ -164,9 +164,9 @@ function SvgComponent() {
           y2={471.891}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint6_linear"
@@ -176,9 +176,9 @@ function SvgComponent() {
           y2={472.986}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint7_linear"
@@ -188,9 +188,9 @@ function SvgComponent() {
           y2={473.419}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint8_linear"
@@ -200,9 +200,9 @@ function SvgComponent() {
           y2={474.331}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint9_linear"
@@ -212,9 +212,9 @@ function SvgComponent() {
           y2={472.356}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint10_linear"
@@ -224,9 +224,9 @@ function SvgComponent() {
           y2={466.337}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint11_linear"
@@ -236,9 +236,9 @@ function SvgComponent() {
           y2={528.246}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint12_linear"
@@ -248,9 +248,9 @@ function SvgComponent() {
           y2={553.569}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint13_linear"
@@ -260,9 +260,9 @@ function SvgComponent() {
           y2={550.434}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint14_linear"
@@ -272,9 +272,9 @@ function SvgComponent() {
           y2={554.852}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint15_linear"
@@ -284,9 +284,9 @@ function SvgComponent() {
           y2={559.564}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint16_linear"
@@ -296,9 +296,9 @@ function SvgComponent() {
           y2={551.068}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint17_linear"
@@ -308,9 +308,9 @@ function SvgComponent() {
           y2={552.158}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint18_linear"
@@ -320,9 +320,9 @@ function SvgComponent() {
           y2={395.341}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
         <linearGradient
           id="paint19_linear"
@@ -332,9 +332,9 @@ function SvgComponent() {
           y2={481.29}
           gradientUnits="userSpaceOnUse"
         >
-          <stop stopColor="hsl(var(--primary))" />
-          <stop offset={0.4179} stopColor="hsl(var(--primary))" />
-          <stop offset={0.9677} stopColor="hsl(var(--primary))" />
+          <stop stopColor="hsl(var(--black))" />
+          <stop offset={0.4179} stopColor="hsl(var(--black))" />
+          <stop offset={0.9677} stopColor="hsl(var(--black))" />
         </linearGradient>
       </defs>
     </svg>

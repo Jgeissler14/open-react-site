@@ -21,7 +21,7 @@ const Footer = () => {
                         </Link>
                     </div>
                 </div>
-                <div className="mt-10 py-10 border-t items-center justify-between sm:flex">
+                <div className="mt-10 py-10 border-t items-center justify-between sm:flex text-black">
                     <p>© {new Date().getFullYear()} Cloudzap. All rights reserved.</p>
                     {/* <ul className="flex flex-wrap items-center gap-4 mt-6 sm:text-sm sm:mt-0">
                         {footerLinks.map((item) => (

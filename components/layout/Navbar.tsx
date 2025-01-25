@@ -12,17 +12,17 @@ const Navbar = () => {
             <div className="container flex flex-row justify-between items-center">
                 <Link href="/">
                     <Image
-                        src="/cloudzap-high-resolution-logo-transparent.png"
+                        src="/logo_yellow.png"
                         alt="cloudzap logo"
                         width={100}
                         height={80}
-                         />
+                        className="rounded-full"
+                    />
                 </Link>
                 <ul className="md:flex flex-row justify-between gap-8 hidden">
                     {navLinks.map((link) => (
                         <li key={link.title}>
-                            <Link href={link.href
-                            }>
+                            <Link href={link.href} className="text-black text-xl font-large">
                                 {link.title}
                             </Link>
                         </li>

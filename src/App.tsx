@@ -55,24 +55,26 @@ function App() {
       {/* Hero Section */}
       <header className="bg-black text-white py-6">
         <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between rounded-lg p-4">
-            <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
-            <nav className="flex items-center gap-6">
-              <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#ffde59] transition-colors">
-              YouTube
-              </a>
-              <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
-              Book a Call
-              </a>
-            </nav>
-            </div>
+            {window.innerWidth > 600 && (
+              <div className="flex items-center justify-between rounded-lg p-4">
+              <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
+              <nav className="flex items-center gap-6">
+                <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#ffde59] transition-colors">
+                YouTube
+                </a>
+                <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
+                Book a Call
+                </a>
+              </nav>
+              </div>
+            )}
         </div>
       </header>
 
       {/* Main Content */}
       <main>
         {/* Hero */}
-        <div className="bg-black text-white pt-8 pb-24">
+        <div className="bg-black text-white pt-8 pb-24 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               Automate, Secure, and Scale{' '}

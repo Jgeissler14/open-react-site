@@ -56,7 +56,7 @@ function App() {
       <header className="bg-black text-white py-6">
         <div className="container mx-auto px-4">
             <div className="flex items-center justify-between rounded-lg p-4">
-            <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-32 w-32 rounded-full" />
+            <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
             <nav className="flex items-center gap-6">
               <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#ffde59] transition-colors">
               YouTube

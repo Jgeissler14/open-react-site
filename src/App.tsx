@@ -78,7 +78,7 @@ function App() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               Automate, Secure, and Scale{' '}
-              <span className="text-[#ffde59]">your cloud</span>
+              <span className="text-[#ffde59]">Your Cloud</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Cloudzap helps you take a unified approach to infrastructure management with a devops done with you service.

@@ -28,7 +28,6 @@ function PricingCard({
         <p className="text-gray-600 mb-4 min-h-[80px]">{description}</p>
         <div className="mb-6">
           <span className="text-4xl font-bold">{price}</span>
-          {/* {price !== "Contact us" && <span className="text-gray-600">/mo</span>} */}
         </div>
       </div>
       <div className="flex-grow">
@@ -77,11 +76,11 @@ function App() {
         <div className="bg-black text-white pt-8 pb-24 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              On-Demand DevOps Support{' '}
-              <span className="text-[#ffde59]">Only When You Need It</span>
+              On-Demand <span className="text-[#ffde59]">Terraform</span> Support{' '}
+              Only When You Need It
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              No need to hire a full-time DevOps engineer. Get expert help only when you need it for Automation, Infrastructure as Code, Security, CI/CD, and more.
+              No need to hire a full-time Terraform expert. Get expert help only when you need it for creating new infrastructure or migrating existing infrastructure with Terraform.
             </p>
             <div className="flex gap-4 justify-center">
               <a href="#pricing" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
@@ -97,19 +96,13 @@ function App() {
         {/* Features */}
         <div className="py-20 bg-white">
           <div className="container mx-auto px-4">
-            {/* <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold mb-4">DevOps Engineering Done With You</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Scalable, automated, and secure cloud environments with DevOps practices tailored for your team.
-              </p>
-            </div> */}
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Code className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Infrastructure as Code</h3>
-                <p className="text-gray-600">Automate your infrastructure deployment with modern IaC practices</p>
+                <p className="text-gray-600">Automate your infrastructure deployment with modern Terraform practices</p>
               </div>
               <div className="text-center">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
@@ -133,69 +126,20 @@ function App() {
         <div className="py-20 bg-gray-50" id="pricing">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              {/* <h2 className="text-4xl font-bold mb-4">Pricing Plans</h2>
-              <p className="text-gray-600 max-w-2xl mx-auto">
-                Choose a plan that works best for you. If you're not satisfied with the results, get your money back.
-              </p>
-              <a href="https://calendly.com/jrgeissler14/30min" className="inline-block bg-black text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-800 transition-colors mt-6">
-                Book a call
-              </a>
-            </div>
-            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-              <PricingCard
-                title="Standard"
-                price="$995"
-                description="Receive expert guidance on how to plan and implement IaC, build management, and CI/CD for your cloud infrastructure, with actionable strategies and continuous support."
-                features={[
-                  "Infrastructure as Code Guidance",
-                  "Architecture Design and Documentation",
-                  "Ongoing Support & Feedback"
-                ]}
-                link="https://buy.stripe.com/3csg2N37w7fV7jqcMV"
-              />
-              <PricingCard
-                title="Pro"
-                price="$2,495"
-                description="We'll build and configure your new or existing cloud infrastructure using best practices in IaC, build management, and CI/CD, and continuous support for changes."
-                features={[
-                  "Custom Infrastructure as Code",
-                  "Build Configuration",
-                  "CI/CD Configuration",
-                  "Documentation & Guidance",
-                  "Ongoing Support for Revisions",
-                  "Pause or Cancel Anytime"
-                ]}
-                popular
-                link="https://buy.stripe.com/00g8AlgYmfMrfPWfZ6"
-              />
-              <PricingCard
-                title="Ad-Hoc"
-                price="Contact us"
-                description="Receive tailored, one-time cloud solutions for implementing IaC, build management, and CI/CD, with continuous support. Plus get a discount if you decide to upgrade to a monthly plan."
-                features={[
-                  "One-time Implementation",
-                  "Custom Solutions",
-                  "Continuous Support",
-                  "Upgrade Discount Available"
-                ]}
-                link="https://calendly.com/jrgeissler14/30min"
-              /> */}
               <div className="text-center mb-12 max-w-2xl mx-auto">
               <PricingCard
                 title="Project Based"
                 price=""
-                description="Schedule a call to discuss your DevOps needs, whether it's infrastructure automation, CI/CD, or cloud optimization."
+                description="Schedule a call to discuss your Terraform needs, whether it's infrastructure automation or cloud optimization."
                 features={[
                   "Delivery in 48 hours",
                   "No long-term commitment",
                   "On-demand expertise",
                   "AWS and Azure",
                   "Documentation included"
-
                 ]}
                 link="https://calendly.com/jrgeissler14/30min"
               />
-
               </div>
             </div>
           </div>

@@ -76,11 +76,11 @@ function App() {
         <div className="bg-black text-white pt-8 pb-24 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              On-Demand <span className="text-[#ffde59]">Terraform</span> Support{' '}
+              On-Demand <span className="text-[#ffde59]">Terraform</span> Expert{' '}
               Only When You Need It
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              No need to hire a full-time Terraform expert. Get expert help only when you need it for creating new infrastructure or migrating existing infrastructure with Terraform.
+              Cloudzap helps small to mid-sized consultancies and IT departments with Terraform, providing a proven framework you need without the overhead and expense of hiring a full-time DevOps Engineer
             </p>
             <div className="flex gap-4 justify-center">
               <a href="#pricing" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
@@ -97,27 +97,27 @@ function App() {
         <div className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="text-center">
+                <div className="text-center">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Code className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Infrastructure as Code</h3>
-                <p className="text-gray-600">Automate your infrastructure deployment with modern Terraform practices</p>
-              </div>
-              <div className="text-center">
+                <p className="text-gray-600">Automate your infrastructure deployment with modern Terraform practices, ensuring consistency, repeatability, and scalability across your environments.</p>
+                </div>
+                <div className="text-center">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
                   <GitBranch className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">CI/CD Excellence</h3>
-                <p className="text-gray-600">Streamline your development pipeline with automated workflows</p>
-              </div>
-              <div className="text-center">
+                <p className="text-gray-600">Streamline your development pipeline with automated workflows, reducing manual intervention and accelerating your software delivery process.</p>
+                </div>
+                <div className="text-center">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
                   <Settings className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Cloud Optimization</h3>
-                <p className="text-gray-600">Optimize your cloud infrastructure for performance and cost</p>
-              </div>
+                <p className="text-gray-600">Optimize your cloud infrastructure for performance and cost, leveraging best practices to maximize efficiency and minimize expenses.</p>
+                </div>
             </div>
           </div>
         </div>
@@ -130,13 +130,13 @@ function App() {
               <PricingCard
                 title="Project Based"
                 price=""
-                description="Schedule a call to discuss your Terraform needs, whether it's infrastructure automation or cloud optimization."
+                description="Schedule a call to discuss your Terraform needs, we'll deliver the right solution and continue working together until you're satisfied at no extra charge."
                 features={[
-                  "Delivery in 48 hours",
                   "No long-term commitment",
                   "On-demand expertise",
                   "AWS and Azure",
-                  "Documentation included"
+                  "Documentation included",
+                  "Satisfaction guarantee"
                 ]}
                 link="https://calendly.com/jrgeissler14/30min"
               />

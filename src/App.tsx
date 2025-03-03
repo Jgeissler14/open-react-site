@@ -83,7 +83,7 @@ function App() {
               Cloudzap helps small to mid-sized consultancies and IT departments with Terraform, providing a proven framework you need without the overhead and expense of hiring a full-time DevOps Engineer
             </p>
             <div className="my-8 flex justify-center">
-                <div className="w-1/2 h-48 md:h-72 lg:h-[480px] flex justify-center">
+                <div className="w-full h-48 md:w-2/3 md:h-72 lg:h-[480px] flex justify-center">
                 <iframe
                   src="https://www.youtube.com/embed/hCVrniGlL7U"
                   title="YouTube video player"

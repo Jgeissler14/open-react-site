@@ -82,6 +82,19 @@ function App() {
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               Cloudzap helps small to mid-sized consultancies and IT departments with Terraform, providing a proven framework you need without the overhead and expense of hiring a full-time DevOps Engineer
             </p>
+            <div className="my-8 flex justify-center">
+                <div className="w-1/2 h-48 md:h-72 lg:h-[480px] flex justify-center">
+                <iframe
+                  src="https://www.youtube.com/embed/hCVrniGlL7U"
+                  title="YouTube video player"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerPolicy="strict-origin-when-cross-origin"
+                  allowFullScreen
+                  className="w-full h-full"
+                ></iframe>
+                </div>
+            </div>
             <div className="flex gap-4 justify-center">
               <a href="#pricing" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
                 Get Started <ArrowRight className="w-5 h-5" />

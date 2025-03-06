@@ -143,7 +143,7 @@ function App() {
               <PricingCard
                 title="Project Based"
                 price=""
-                description="Schedule a call to discuss your Terraform needs, we'll deliver the right solution and continue working together until you're satisfied at no extra charge."
+                description="Schedule a call to discuss your Terraform needs, we'll deliver the right solution. If you're not happy with the results, you don't pay."
                 features={[
                   "No long-term commitment",
                   "On-demand expertise",

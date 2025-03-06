@@ -121,7 +121,7 @@ function App() {
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mx-auto mb-4">
                   <GitBranch className="w-8 h-8 text-black" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">CI/CD Excellence</h3>
+                <h3 className="text-xl font-bold mb-2">CI/CD Pipelines</h3>
                 <p className="text-gray-600">Streamline your development pipeline with automated workflows, reducing manual intervention and accelerating your software delivery process.</p>
                 </div>
                 <div className="text-center">

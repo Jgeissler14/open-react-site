@@ -85,7 +85,7 @@ function App() {
             <div className="my-8 flex justify-center">
                 <div className="w-full h-48 md:w-2/3 md:h-72 lg:h-[480px] flex justify-center">
                 <iframe
-                  src="https://www.youtube.com/embed/hCVrniGlL7U"
+                  src="https://www.youtube.com/embed/e-EbicAy7A0?si=XDorA2Y5otXTmuK6"
                   title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

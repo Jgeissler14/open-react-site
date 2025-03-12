@@ -103,7 +103,7 @@ function App() {
                 <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#ffde59] transition-colors">
                   YouTube
                 </a>
-                <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
+                <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
                   Book a Call
                 </a>
               </nav>
@@ -124,7 +124,7 @@ function App() {
               Stop overpaying for in-house DevOps. Get expert Terraform solutions exactly when you need them, at a fraction of the cost of a full-time hire.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
-              <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
+              <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
                 SCHEDULE FREE CONSULTATION <ArrowRight className="w-5 h-5" />
               </a>
               <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
@@ -285,7 +285,7 @@ function App() {
            <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Infrastructure?</h2>
            <p className="text-xl mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
            <div className="flex flex-col md:flex-row gap-4 justify-center">
-             <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
+             <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
                BOOK YOUR FREE CONSULTATION <ArrowRight className="w-5 h-5" />
              </a>
              <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
@@ -307,7 +307,7 @@ function App() {
            </div>
            <div className="flex gap-8">
              <a href="/" className="hover:text-[#ffde59] transition-colors">Home</a>
-             <a href="https://calendly.com/jrgeissler14/30min" className="hover:text-[#ffde59] transition-colors">Book a meeting</a>
+             <a href="https://cal.com/josh-geissler/30min" className="hover:text-[#ffde59] transition-colors">Book a meeting</a>
              <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffde59] transition-colors">YouTube</a>
            </div>
          </div>

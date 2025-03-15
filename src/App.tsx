@@ -118,10 +118,10 @@ function App() {
         <div className="bg-black text-white pt-8 pb-24 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Cloud Infrastructure <span className="text-[#ffde59]">With Terraform</span> Done For You
+              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Terraform, Done For You
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Cloudzap helps build and migrate AWS and Azure infrastructure to infrastructure as code (IaC) using terraform in 14 days on average.
+              Cloudzap helps lean IT teams go from manaul configuration to automated AWS and Azure infrastructure using terraform, without needing to find and hire full time devops engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">

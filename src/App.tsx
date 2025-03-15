@@ -104,7 +104,7 @@ function App() {
                   YouTube
                 </a>
                 <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
-                  Book a Call
+                  Book a Discovery Call
                 </a>
               </nav>
             </div>
@@ -125,10 +125,10 @@ function App() {
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
-                SCHEDULE FREE CONSULTATION <ArrowRight className="w-5 h-5" />
+                Book a Discovery Call <ArrowRight className="w-5 h-5" />
               </a>
               <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
-                SEE OUR WORK
+                See Our Work
               </a>
             </div>
             <div className="my-8 flex justify-center">
@@ -286,7 +286,7 @@ function App() {
            <p className="text-xl mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
            <div className="flex flex-col md:flex-row gap-4 justify-center">
              <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
-               BOOK YOUR FREE CONSULTATION <ArrowRight className="w-5 h-5" />
+               Book a Discovery Call <ArrowRight className="w-5 h-5" />
              </a>
              <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
                Watch Our Terraform DevOps Tutorials

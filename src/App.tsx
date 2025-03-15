@@ -121,7 +121,7 @@ function App() {
               Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Terraform, Done For You
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Cloudzap helps IT teams go from manual configuration to automated AWS and Azure infrastructure using terraform, without needing to find and hire full time devops engineers.
+              Cloudzap helps small teams using AWS or Azure go from manual configuration to automated AWS and Azure infrastructure using terraform, without needing to find and hire full time devops engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">

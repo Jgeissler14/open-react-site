@@ -134,8 +134,8 @@ function App() {
             <div className="my-8 flex justify-center">
               <div className="w-full h-48 md:w-2/3 md:h-72 lg:h-[480px] flex justify-center">
                 <iframe
-                  src="https://www.youtube.com/embed/e-EbicAy7A0?si=4tzC-DwtnkXn6PX-"
-                  title="YouTube video player"
+                  src="https://www.youtube.com/embed/hED_iOCx9Vo?si=hz4Y5mphoStXciue"
+                  title="How To Manage Your Cloud Infrastructure With Less Engineers"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   referrerPolicy="strict-origin-when-cross-origin"

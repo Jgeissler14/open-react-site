@@ -97,10 +97,10 @@ function App() {
       <header className="bg-gray-900 text-white py-6">
         <div className="container mx-auto px-4">
           {window.innerWidth > 600 && (
-            <div className="flex items-center justify-between rounded-lg p-4">
+            <div className="flex items-center justify-between rounded-lg p-6">
               <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
-              <nav className="flex items-center gap-6">
-                <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-white hover:text-[#ffde59] transition-colors">
+              <nav className="flex items-center gap-8">
+                <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">
                   YouTube
                 </a>
                 <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
@@ -115,7 +115,7 @@ function App() {
       {/* Main Content */}
       <main>
         {/* Hero */}
-        <div className="bg-gray-900 text-white pt-8 pb-24 px-4">
+        <div className="bg-gray-900 text-white pt-8 pb-20 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Terraform, Done For You
@@ -127,7 +127,7 @@ function App() {
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
                 Book a Discovery Call <ArrowRight className="w-5 h-5" />
               </a>
-              <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
+              <a href="https://www.youtube.com/@JoshGeissler" className="border border-gray-300 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
                 See Our Work
               </a>
             </div>
@@ -280,20 +280,20 @@ function App() {
        </div> */}
 
        {/* CTA */}
-       <div className="py-16 bg-gray-900 text-white text-center">
-         <div className="container mx-auto px-4 max-w-3xl">
-           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Infrastructure?</h2>
-           <p className="text-xl mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
-           <div className="flex flex-col md:flex-row gap-4 justify-center">
-             <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
-               Book a Discovery Call <ArrowRight className="w-5 h-5" />
-             </a>
-             <a href="https://www.youtube.com/@JoshGeissler" className="border border-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
-               Watch Our Terraform DevOps Tutorials
-             </a>
-           </div>
-         </div>
-       </div>
+        <div className="py-16 bg-gray-900 text-white text-center">
+          <div className="container mx-auto px-4 max-w-3xl">
+            <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Infrastructure?</h2>
+            <p className="text-xl text-gray-300 mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
+            <div className="flex flex-col md:flex-row gap-6 justify-center">
+              <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
+                Book a Discovery Call <ArrowRight className="w-5 h-5" />
+              </a>
+              <a href="https://www.youtube.com/@JoshGeissler" className="border border-gray-300 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
+                Watch Our Terraform DevOps Tutorials
+              </a>
+            </div>
+          </div>
+        </div>
      </main>
 
      {/* Footer */}
@@ -305,11 +305,11 @@ function App() {
              <p className="text-gray-400">Empowering your cloud infrastructure</p>
              <a href="mailto:josh@cloudzap.co" className="text-[#ffde59] hover:text-white transition-colors">josh@cloudzap.co</a>
            </div>
-           <div className="flex gap-8">
-             <a href="/" className="hover:text-[#ffde59] transition-colors">Home</a>
-             <a href="https://cal.com/josh-geissler/30min" className="hover:text-[#ffde59] transition-colors">Book a meeting</a>
-             <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="hover:text-[#ffde59] transition-colors">YouTube</a>
-           </div>
+            <div className="flex gap-8 mt-4">
+              <a href="/" className="text-gray-300 hover:text-[#ffde59] transition-colors">Home</a>
+              <a href="https://cal.com/josh-geissler/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Book a meeting</a>
+              <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">YouTube</a>
+            </div>
          </div>
          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
            <p>&copy; {new Date().getFullYear()} CloudZap LLC. All rights reserved.</p>

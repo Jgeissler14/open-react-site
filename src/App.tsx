@@ -40,7 +40,7 @@ function PricingCard({
           ))}
         </ul>
       </div>
-      <a href={link} className="w-full py-3 px-6 rounded-lg bg-gray-900 text-white hover:bg-gray-800 transition-colors flex items-center justify-center gap-2 mt-auto">
+      <a href={link} className="w-full py-3 px-6 rounded-lg bg-gray-900 text-white hover:bg-neutral-950 transition-colors flex items-center justify-center gap-2 mt-auto">
         Get Started
         <ArrowRight className="w-4 h-4" />
       </a>

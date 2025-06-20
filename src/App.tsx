@@ -94,7 +94,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gray-800 text-white py-6">
+      <header className="bg-neutral-950 text-white py-6">
         <div className="container mx-auto px-4">
           {window.innerWidth > 600 && (
             <div className="flex items-center justify-between rounded-lg p-6">
@@ -115,7 +115,7 @@ function App() {
       {/* Main Content */}
       <main>
         {/* Hero */}
-        <div className="relative bg-gray-800 text-white pt-8 pb-32 px-4 overflow-hidden">
+        <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Done-for-You Terraform

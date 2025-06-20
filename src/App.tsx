@@ -94,7 +94,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-gray-900 text-white py-6">
+      <header className="bg-gray-800 text-white py-6">
         <div className="container mx-auto px-4">
           {window.innerWidth > 600 && (
             <div className="flex items-center justify-between rounded-lg p-6">
@@ -115,7 +115,7 @@ function App() {
       {/* Main Content */}
       <main>
         {/* Hero */}
-        <div className="relative bg-gray-900 text-white pt-8 pb-32 px-4 overflow-hidden">
+        <div className="relative bg-gray-800 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Done-for-You Terraform
@@ -145,13 +145,14 @@ function App() {
               </div>
             </div>
             <svg
-              className="absolute bottom-0 left-0 w-full h-32 text-white"
+              className="absolute bottom-0 left-0 w-full h-24 text-white"
               viewBox="0 0 1440 320"
+              preserveAspectRatio="none"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
                 fill="currentColor"
-                d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,170.7C672,171,768,117,864,106.7C960,96,1056,128,1152,122.7C1248,117,1344,75,1392,53.3L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+                d="M0,224Q360,160 720,224T1440,224V320H0Z"
               />
             </svg>
           </div>

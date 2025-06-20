@@ -118,10 +118,10 @@ function App() {
         <div className="bg-gray-900 text-white pt-8 pb-20 px-4">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Terraform, Done For You
+              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Done-for-You Terraform
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Cloudzap helps small teams using AWS or Azure go from manual configuration to automated AWS and Azure infrastructure using terraform, without needing to find and hire full time devops engineers.
+              CloudZap helps small teams on AWS or Azure move from manual setups to automated Terraform-managed infrastructure—no need to hire full-time DevOps engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
@@ -158,11 +158,11 @@ function App() {
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
                 <h3 className="text-xl font-bold mb-2">Can't Justify a Full-Time Hire</h3>
-                <p className="text-gray-700">You need DevOps expertise at certain points in your project lifecycle, but can't justify the $125,000+ salary and 3-6 month hiring process.</p>
+                <p className="text-gray-700">You need DevOps expertise during parts of your project, but can't justify the $125,000+ salary and 3- to 6-month hiring process.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
                 <h3 className="text-xl font-bold mb-2">Need Expertise On-Demand</h3>
-                <p className="text-gray-700">Building new infrastructure requires specialized skills that your team may not have, but you only need these skills occasionally.</p>
+                <p className="text-gray-700">Building new infrastructure requires specialized skills your team may only need occasionally.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
                 <h3 className="text-xl font-bold mb-2">Facing Deployment Delays</h3>
@@ -302,7 +302,7 @@ function App() {
          <div className="flex flex-col md:flex-row justify-between items-center">
            <div className="mb-8 md:mb-0 text-center md:text-left">
              <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-32 w-32 rounded-full mx-auto md:mx-0" />
-             <p className="text-gray-400">Empowering your cloud infrastructure</p>
+             <p className="text-gray-400">Empowering Your Cloud Infrastructure</p>
              <a href="mailto:josh@cloudzap.co" className="text-[#ffde59] hover:text-white transition-colors">josh@cloudzap.co</a>
            </div>
             <div className="flex gap-8 mt-4">

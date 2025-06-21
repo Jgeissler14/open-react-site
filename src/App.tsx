@@ -40,7 +40,7 @@ function PricingCard({
           ))}
         </ul>
       </div>
-      <a href={link} className="w-full py-3 px-6 rounded-lg bg-gray-900 text-white hover:bg-neutral-950 transition-colors flex items-center justify-center gap-2 mt-auto">
+      <a href={link} className="w-full py-3 px-6 rounded-lg bg-neutral-950 text-white hover:bg-neutral-950 transition-colors flex items-center justify-center gap-2 mt-auto">
         Get Started
         <ArrowRight className="w-4 h-4" />
       </a>
@@ -291,7 +291,7 @@ function App() {
        </div> */}
 
        {/* CTA */}
-        <div className="py-16 bg-gray-900 text-white text-center">
+        <div className="py-16 bg-neutral-950 text-white text-center">
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Infrastructure?</h2>
             <p className="text-xl text-gray-300 mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
@@ -308,7 +308,7 @@ function App() {
      </main>
 
      {/* Footer */}
-     <footer className="bg-gray-900 text-white py-12">
+     <footer className="bg-neutral-950 text-white py-12">
        <div className="container mx-auto px-4">
          <div className="flex flex-col md:flex-row justify-between items-center">
            <div className="mb-8 md:mb-0 text-center md:text-left">

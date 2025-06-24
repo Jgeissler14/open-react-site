@@ -118,10 +118,10 @@ function App() {
         <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Done-for-You Terraform
+              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Freelance Experts
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              CloudZap helps small teams on AWS or Azure move from manual setups to automated Terraform-managed infrastructure—no need to hire full-time DevOps engineers.
+              CloudZap helps small teams on AWS or Azure automate infrastructure and delivery pipelines using Terraform and CI/CD—no need to hire full-time cloud engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
@@ -169,7 +169,7 @@ function App() {
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
                 <h3 className="text-xl font-bold mb-2">Can't Justify a Full-Time Hire</h3>
-                <p className="text-gray-700">You need DevOps expertise during parts of your project, but can't justify the $125,000+ salary and 3- to 6-month hiring process.</p>
+                <p className="text-gray-700">You need cloud engineering expertise during parts of your project, but can't justify the $125,000+ salary and 3- to 6-month hiring process.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
                 <h3 className="text-xl font-bold mb-2">Need Expertise On-Demand</h3>
@@ -244,7 +244,7 @@ function App() {
             <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
               <div className="flex flex-col items-center text-center p-4">
                 <DollarSign className="w-12 h-12 text-[#ffde59] mb-4" />
-                <h3 className="font-bold mb-2">Save 70% on DevOps Costs</h3>
+                <h3 className="font-bold mb-2">Save 70% on Cloud Engineering Costs</h3>
                 <p className="text-gray-600">compared to hiring full-time</p>
               </div>
               <div className="flex flex-col items-center text-center p-4">
@@ -294,13 +294,13 @@ function App() {
         <div className="py-16 bg-neutral-950 text-white text-center">
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Infrastructure?</h2>
-            <p className="text-xl text-gray-300 mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
+            <p className="text-xl text-gray-300 mb-8">Don't let cloud bottlenecks slow your business growth. Get expert Terraform and CI/CD implementation without the overhead.</p>
             <div className="flex flex-col md:flex-row gap-6 justify-center">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center justify-center gap-2">
                 Book a Discovery Call <ArrowRight className="w-5 h-5" />
               </a>
               <a href="https://www.youtube.com/@JoshGeissler" className="border border-gray-300 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
-                Watch Our Terraform DevOps Tutorials
+                Watch Our Terraform & CI/CD Tutorials
               </a>
             </div>
           </div>

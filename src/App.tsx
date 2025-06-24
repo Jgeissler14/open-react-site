@@ -118,7 +118,7 @@ function App() {
         <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              Automate Your <span className="text-[#ffde59]">Cloud Infrastructure</span> With Freelance Cloud Engineering
+              Cloud Engineering Support Only When You Need It
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               CloudZap helps small teams on AWS or Azure automate infrastructure and delivery pipelines using Terraform and CI/CD—no need to hire full-time cloud engineers.

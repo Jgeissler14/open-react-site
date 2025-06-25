@@ -119,7 +119,6 @@ function App() {
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
               <span className="text-[#ffde59]">Cloud Engineering</span> Support Only When You Need It
-              <span className="text-[#ffde59]">Cloud Engineering</span> Support Only When You Need It
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               CloudZap helps small-to-mid sized teams design, build, and automate AWS or Azure infrastructure
@@ -198,7 +197,7 @@ function App() {
               <ProcessStep 
               number={2}
               title="Get a Custom Quote"
-              description="Receive a detailed proposal and timeline tailored to your requirements—no hidden fees."
+              description="Receive a detailed proposal and timeline tailored to your requirements with no hidden fees."
               />
               <ProcessStep 
               number={3}

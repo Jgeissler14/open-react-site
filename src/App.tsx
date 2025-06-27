@@ -121,7 +121,7 @@ function App() {
               Deploy Faster and Safer <span className="text-[#ffde59]">Without Taking Down Production</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              CloudZap helps mid size teams without in house DevOps to ship faster, reduce outages, and remove infrastructure bottlenecks. In just 6 weeks. Without hiring full time engineers.
+              CloudZap helps growing healthcare tech teams struggling with messy cloud environments to automate and remove infrastructure bottlenecks. In just 6 weeks. Without hiring full time engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">

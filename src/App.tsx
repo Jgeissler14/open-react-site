@@ -132,7 +132,7 @@ function App() {
               </a>
             </div>
             <div className="my-8 flex justify-center">
-              <div className="w-full h-48 md:w-2/3 md:h-72 lg:h-[480px] flex justify-center">
+              <div className="w-full md:w-2/3 aspect-video">
                 <iframe
                   src="https://www.youtube.com/embed/EpIFVoWAZ6A?si=q7GfUIx0Ginbfx-e"
                   title="How To Manage Your Cloud Infrastructure With Less Engineers"

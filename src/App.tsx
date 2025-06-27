@@ -118,7 +118,7 @@ function App() {
         <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              <span className="text-[#ffde59]">Deploy Faster and Safer</span> Without Taking Down Production
+              Deploy Faster and Safer <span className="text-[#ffde59]">Without Taking Down Production</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
               CloudZap helps mid size teams without in house DevOps to ship faster, reduce outages, and remove infrastructure bottlenecks. In just 6 weeks. Without hiring full time engineers.
@@ -208,7 +208,7 @@ function App() {
         </div>
 
         {/* Services */}
-        <div className="py-16 bg-white">
+        <div className="py-16 bg-gradient-to-br from-yellow-50 via-white to-yellow-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">What’s Included</h2>
             <div className="grid md:grid-cols-3 gap-8">

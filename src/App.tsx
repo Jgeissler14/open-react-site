@@ -118,11 +118,10 @@ function App() {
         <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
             <h1 className="text-5xl font-bold mb-6">
-              <span className="text-[#ffde59]">Cloud Engineering</span> Support Only When You Need It
+              <span className="text-[#ffde59]">Deploy Faster and Safer</span> Without Taking Down Production
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              CloudZap helps small-to-mid sized teams design, build, and automate AWS or Azure infrastructure
-              using Terraform and CI/CD, without finding and hiring full time engineers
+              CloudZap helps mid size teams without in house DevOps to ship faster, reduce outages, and remove infrastructure bottlenecks. In just 6 weeks. Without hiring full time engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
@@ -162,23 +161,23 @@ function App() {
         {/* Problem Statement */}
         <div className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">Are These Your Infrastructure Blockers?</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">Why Your Infrastructure Is Slowing You Down</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
-                <h3 className="text-xl font-bold mb-2">Infrastructure Slowing Your Team</h3>
-                <p className="text-gray-700">Your application team struggles to move forward because infrastructure deployment is a constant bottleneck in your development process.</p>
+                <h3 className="text-xl font-bold mb-2">Your Developers Are Waiting on Infra</h3>
+                <p className="text-gray-700">Your team can’t release features because infrastructure is a constant blocker.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
-                <h3 className="text-xl font-bold mb-2">Can't Justify a Full-Time Hire</h3>
-                <p className="text-gray-700">You need cloud expertise during parts of your project, but can't justify the $125,000+ salary and 3 to 6 month hiring process.</p>
+                <h3 className="text-xl font-bold mb-2">A Full Time Hire Doesn’t Make Sense</h3>
+                <p className="text-gray-700">You need DevOps help during critical projects, not year round. A $150K hire is overkill.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
-                <h3 className="text-xl font-bold mb-2">Need Expertise On-Demand</h3>
-                <p className="text-gray-700">Building new infrastructure requires specialized skills your team may only need occasionally.</p>
+                <h3 className="text-xl font-bold mb-2">You’re Spending Time on the Wrong Problems</h3>
+                <p className="text-gray-700">Instead of building product, your engineers are stuck managing config files, environments, and manual deploys.</p>
               </div>
               <div className="bg-gray-50 p-6 rounded-xl border-l-4 border-[#ffde59]">
-                <h3 className="text-xl font-bold mb-2">Facing Deployment Delays</h3>
-                <p className="text-gray-700">Manual infrastructure deployment creates weekend work, delays your projects, and prevents your team from focusing on building features.</p>
+                <h3 className="text-xl font-bold mb-2">You’re One Bad Deploy Away From Production Going Down</h3>
+                <p className="text-gray-700">Without a solid pipeline, you’re relying on tribal knowledge, last minute fixes, and hope.</p>
               </div>
             </div>
           </div>
@@ -187,22 +186,22 @@ function App() {
         {/* How It Works */}
         <div className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">How It Works</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">The 6 Week DevOps Transformation</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <ProcessStep 
-              number={1}
-              title="Share Your Project"
-              description="Tell us about your cloud infrastructure needs and the outcomes you want to achieve."
+              <ProcessStep
+                number={1}
+                title="Infrastructure Audit and Plan"
+                description="We evaluate your cloud setup, identify weak spots, and create a clear roadmap to get your team deploying with confidence."
               />
-              <ProcessStep 
-              number={2}
-              title="Get a Custom Quote"
-              description="Receive a detailed proposal and timeline tailored to your requirements with no hidden fees."
+              <ProcessStep
+                number={2}
+                title="Pipeline and Infrastructure Build"
+                description="We implement scalable infrastructure and CI/CD pipelines tailored to your stack. No rip and replace, just what works."
               />
-              <ProcessStep 
-              number={3}
-              title="Project Delivery & Support"
-              description="We deliver your solution and provide ongoing support as needed, billed per project or milestone."
+              <ProcessStep
+                number={3}
+                title="Launch, Handoff and Support"
+                description="We train your team, document the setup, and support your first launches so nothing gets dropped."
               />
             </div>
           </div>
@@ -211,28 +210,28 @@ function App() {
         {/* Services */}
         <div className="py-16 bg-white">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">Services That Scale With Your Business</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">What’s Included</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mb-4">
                   <Code className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Infrastructure as Code</h3>
-                <p className="text-gray-600">Transform your manual processes into automated, version controlled deployments that ensure consistency across all environments.</p>
+                <p className="text-gray-600">We turn your existing cloud environment into reliable, version controlled infrastructure using Terraform or Pulumi.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mb-4">
                   <GitBranch className="w-8 h-8 text-black" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">CI/CD Implementation</h3>
-                <p className="text-gray-600">Accelerate your delivery pipeline with automated workflows that reduce errors by 85% and cut deployment time from days to minutes.</p>
+                <h3 className="text-xl font-bold mb-2">CI/CD Setup</h3>
+                <p className="text-gray-600">We build pipelines that let your team deploy safely and automatically, using tools you already know.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mb-4">
                   <Settings className="w-8 h-8 text-black" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Cloud Cost Optimization</h3>
-                <p className="text-gray-600">Our clients typically save 10-20% on their AWS and Azure bills through our infrastructure optimization strategies.</p>
+                <h3 className="text-xl font-bold mb-2">Cloud Optimization</h3>
+                <p className="text-gray-600">We make your infrastructure leaner and more cost effective, often saving 10 to 20 percent on your bill.</p>
               </div>
             </div>
           </div>
@@ -268,8 +267,8 @@ function App() {
       {/* CTA */}
        <div className="py-16 bg-gradient-to-br from-[#ffde59] via-[#ffde59] to-[#ffde59] text-black text-center shadow-2xl">
          <div className="container mx-auto px-4 max-w-3xl">
-           <h2 className="text-3xl font-bold mb-4 drop-shadow-lg text-#">Ready to Transform Your Infrastructure?</h2>
-           <p className="text-xl text-neutral-900 mb-8">Don't let DevOps bottlenecks slow your business growth. Get expert Terraform implementation without the overhead.</p>
+           <h2 className="text-3xl font-bold mb-4 drop-shadow-lg text-#">Skip the Bottlenecks</h2>
+           <p className="text-xl text-neutral-900 mb-8">We build your pipelines and infrastructure in 6 weeks so you can stop firefighting and start delivering.</p>
            <div className="flex flex-col md:flex-row gap-6 justify-center">
         <a href="https://cal.com/josh-geissler/30min" className="border border-neutral-950 bg-[#fff] text-neutral-950 px-8 py-3 rounded-lg font-semibold hover:bg-[#E6E6E6] hover:text-[#000] transition-colors shadow-lg flex items-center gap-2">
           Book a Call <ArrowRight className="w-5 h-5" />

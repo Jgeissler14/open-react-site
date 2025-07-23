@@ -94,17 +94,17 @@ function App() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <header className="bg-neutral-950 text-white py-6">
+      <header className="bg-neutral-950 text-white">
         <div className="container mx-auto px-4">
           {window.innerWidth > 600 && (
             <div className="flex items-center justify-between rounded-lg p-6">
               <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
               <nav className="flex items-center gap-8">
                 <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">
-                  YouTube
+                  See Our Work
                 </a>
                 <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
-                  Book a Discovery Call
+                  Get In Touch
                 </a>
               </nav>
             </div>
@@ -115,20 +115,17 @@ function App() {
       {/* Main Content */}
       <main>
         {/* Hero */}
-        <div className="relative bg-neutral-950 text-white pt-8 pb-32 px-4 overflow-hidden">
+        <div className="relative bg-neutral-950 text-white pb-32 px-4 overflow-hidden">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-5xl font-bold mb-6">
-              Deploy Faster and Safer <span className="text-[#ffde59]">Without Taking Down Production</span>
+            <h1 className="text-4xl font-bold mb-6">
+              GET CONTROL OF YOUR <span className="text-[#ffde59] text-5xl">INFRASTRUCTURE AS CODE</span>
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              CloudZap helps growing professional services tech teams struggling with messy cloud environments to automate and remove infrastructure bottlenecks. In just 6 weeks. Without hiring full time engineers.
+              CloudZap helps growing engineering teams struggling with unstable cloud environments to automate and remove infrastructure bottlenecks with IaC, without hiring full time engineers.
             </p>
             <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
               <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
-                Book a Discovery Call <ArrowRight className="w-5 h-5" />
-              </a>
-              <a href="https://www.youtube.com/@JoshGeissler" className="border border-gray-300 text-gray-300 px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-black transition-colors">
-                See Our Work
+                Schedule Your Free Assessment <ArrowRight className="w-5 h-5" />
               </a>
             </div>
             <div className="my-8 flex justify-center">
@@ -159,7 +156,7 @@ function App() {
         </div>
 
         {/* Problem Statement */}
-        <div className="py-16 bg-white">
+        {/* <div className="py-16 bg-white">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">Why Your Infrastructure Is Slowing You Down</h2>
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
@@ -181,10 +178,10 @@ function App() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* How It Works */}
-        <div className="py-16 bg-gray-50">
+        {/* <div className="py-16 bg-gray-50">
           <div className="container mx-auto px-4">
             <h2 className="text-3xl font-bold text-center mb-12">The 6 Week DevOps Transformation</h2>
             <div className="grid md:grid-cols-3 gap-8">
@@ -205,19 +202,19 @@ function App() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Services */}
         <div className="py-16 bg-gradient-to-br from-yellow-50 via-white to-yellow-50">
           <div className="container mx-auto px-4">
-            <h2 className="text-3xl font-bold text-center mb-12">What’s Included</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">How We Help</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mb-4">
                   <Code className="w-8 h-8 text-black" />
                 </div>
-                <h3 className="text-xl font-bold mb-2">Infrastructure as Code</h3>
-                <p className="text-gray-600">We turn your existing cloud environment into reliable, version controlled infrastructure using Terraform or Pulumi.</p>
+                <h3 className="text-xl font-bold mb-2">Infrastructure as Code Audit</h3>
+                <p className="text-gray-600">We'll review your current infrastructure and help you develop a plan for a simpler setup.</p>
               </div>
               <div className="bg-white p-8 rounded-xl shadow-md">
                 <div className="w-16 h-16 bg-[#ffde59] rounded-full flex items-center justify-center mb-4">
@@ -231,7 +228,7 @@ function App() {
                   <Settings className="w-8 h-8 text-black" />
                 </div>
                 <h3 className="text-xl font-bold mb-2">Cloud Optimization</h3>
-                <p className="text-gray-600">We make your infrastructure leaner and more cost effective, often saving 10 to 20 percent on your bill.</p>
+                <p className="text-gray-600">We make your infrastructure leaner and more cost effective with modern, maintainable IaC.</p>
               </div>
             </div>
           </div>
@@ -267,17 +264,11 @@ function App() {
       {/* CTA */}
        <div className="py-16 bg-gradient-to-br from-[#ffde59] via-[#ffde59] to-[#ffde59] text-black text-center shadow-2xl">
          <div className="container mx-auto px-4 max-w-3xl">
-           <h2 className="text-3xl font-bold mb-4 drop-shadow-lg text-#">Skip the Bottlenecks</h2>
-           <p className="text-xl text-neutral-900 mb-8">We build your pipelines and infrastructure in 6 weeks so you can stop firefighting and start delivering.</p>
+           <h2 className="text-3xl font-bold mb-4 drop-shadow-lg text-#">Get a standardized, predictable, and efficient infrastructure management process</h2>
+           <p className="text-xl text-neutral-900 mb-8">We build your pipelines and infrastructure so you can stop firefighting and start delivering.</p>
            <div className="flex flex-col md:flex-row gap-6 justify-center">
         <a href="https://cal.com/josh-geissler/30min" className="border border-neutral-950 bg-[#fff] text-neutral-950 px-8 py-3 rounded-lg font-semibold hover:bg-[#E6E6E6] hover:text-[#000] transition-colors shadow-lg flex items-center gap-2">
-          Book a Call <ArrowRight className="w-5 h-5" />
-        </a>
-        <a
-          href="https://www.youtube.com/@JoshGeissler"
-          className="border border-neutral-950 bg-[#fff] text-neutral-950 px-8 py-3 rounded-lg font-semibold hover:bg-[#E6E6E6] hover:text-[#000] transition-colors shadow-lg"
-        >
-          See Our Work
+          Schedule Your Free Assessment <ArrowRight className="w-5 h-5" />
         </a>
            </div>
          </div>
@@ -294,8 +285,7 @@ function App() {
              <a href="mailto:josh@cloudzap.co" className="text-[#ffde59] hover:text-white transition-colors">josh@cloudzap.co</a>
            </div>
             <div className="flex gap-8 mt-4">
-              <a href="/" className="text-gray-300 hover:text-[#ffde59] transition-colors">Home</a>
-              <a href="https://cal.com/josh-geissler/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Book a meeting</a>
+              <a href="https://cal.com/josh-geissler/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Get In Touch</a>
               <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">YouTube</a>
             </div>
          </div>

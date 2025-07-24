@@ -98,7 +98,7 @@ function Home() {
       <div className="relative bg-neutral-950 text-white pb-32 px-4 overflow-hidden">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl font-bold mb-6">
-            BUILD YOUR INFRASTRUCTURE<span className="text-[#ffde59]"> AS CODE</span>
+            ALL YOUR INFRASTRUCTURE<span className="text-[#ffde59]"> AS CODE IN DAYS</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             CloudZap helps growing engineering teams struggling with unstable cloud environments to automate and remove infrastructure bottlenecks with IaC, without hiring full time engineers.

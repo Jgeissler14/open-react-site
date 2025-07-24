@@ -108,7 +108,7 @@ function Home() {
               Schedule Your Free Assessment <ArrowRight className="w-5 h-5" />
             </a>
           </div>
-          <div className="my-8 flex justify-center">
+          {/* <div className="my-8 flex justify-center">
             <div className="w-full md:w-2/3 aspect-video">
               <iframe
                 src="https://www.youtube.com/embed/EpIFVoWAZ6A?si=q7GfUIx0Ginbfx-e"
@@ -120,7 +120,7 @@ function Home() {
                 className="w-full h-full"
               ></iframe>
             </div>
-          </div>
+          </div> */}
           <svg
             className="absolute bottom-0 left-0 w-full h-24 text-white"
             viewBox="0 0 1440 320"
@@ -217,9 +217,9 @@ function App() {
             <div className="flex items-center justify-between rounded-lg p-6">
               <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
               <nav className="flex items-center gap-8">
-                <Link to="/" className="text-gray-300 hover:text-[#ffde59] transition-colors">
+                {/* <Link to="/" className="text-gray-300 hover:text-[#ffde59] transition-colors">
                   Home
-                </Link>
+                </Link> */}
                 <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">
                   See Our Work
                 </a>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { Zap, Code, GitBranch, Settings, Check, ArrowRight, DollarSign, Clock, FileText, Award, ThumbsUp, Clock3 } from 'lucide-react';
-import { Routes, Route, Link } from 'react-router-dom';
 
 function PricingCard({
   title,
@@ -177,7 +176,7 @@ function Home() {
                 className="h-auto w-auto mx-auto mb-6"
               />
               <p className="text-center text-gray-700 mt-8">
-                We are a certified consulting and professional services partner, trusted by AWS and Azure clients to deliver reliable cloud solutions.
+                We are a certified consulting and professional partner, trusted by AWS and Azure clients to deliver reliable cloud solutions.
               </p>
             </div>
             <Testimonial
@@ -207,56 +206,4 @@ function Home() {
   );
 }
 
-function App() {
-  return (
-    <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="bg-neutral-950 text-white">
-        <div className="container mx-auto px-4">
-          {window.innerWidth > 600 && (
-            <div className="flex items-center justify-between rounded-lg p-6">
-              <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-24 w-24 rounded-full" />
-              <nav className="flex items-center gap-8">
-                <Link to="/" className="text-gray-300 hover:text-[#ffde59] transition-colors">
-                  Home
-                </Link>
-                <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">
-                  See Our Work
-                </a>
-                <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
-                  Get In Touch
-                </a>
-              </nav>
-            </div>
-          )}
-        </div>
-      </header>
-
-      <main>
-          <Home />
-      </main>
-
-      {/* Footer */}
-      <footer className="bg-neutral-950 text-white py-12">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-col md:flex-row justify-between items-center">
-            <div className="mb-8 md:mb-0 text-center md:text-left">
-              <img src="cloudzap_logo.png" alt="CloudZap" className="mb-4 h-32 w-32 rounded-full mx-auto md:mx-0" />
-              <p className="text-gray-400">Empowering Your Cloud Infrastructure</p>
-              <a href="mailto:josh@cloudzap.co" className="text-[#ffde59] hover:text-white transition-colors">josh@cloudzap.co</a>
-            </div>
-            <div className="flex gap-8 mt-4">
-              <a href="https://cal.com/josh-geissler/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Get In Touch</a>
-              <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">YouTube</a>
-            </div>
-          </div>
-          <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; {new Date().getFullYear()} CloudZap LLC. All rights reserved.</p>
-          </div>
-        </div>
-      </footer>
-    </div>
-  );
-}
-
-export default App;
+export default Home;

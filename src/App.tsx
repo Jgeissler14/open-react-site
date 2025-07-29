@@ -104,7 +104,7 @@ function Home() {
             CloudZap helps growing engineering teams struggling with unstable cloud environments to automate and remove infrastructure bottlenecks with IaC, without hiring full time engineers.
           </p>
           <div className="flex flex-col md:flex-row gap-4 justify-center mb-12">
-            <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
+            <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-8 py-3 rounded-lg font-semibold hover:bg-opacity-90 transition-colors flex items-center gap-2">
               Schedule Your Free Assessment <ArrowRight className="w-5 h-5" />
             </a>
           </div>
@@ -197,7 +197,7 @@ function Home() {
           <h2 className="text-3xl font-bold mb-4 drop-shadow-lg text-#">Get a standardized, predictable, and efficient infrastructure management process</h2>
           <p className="text-xl text-neutral-900 mb-8">We build your pipelines and infrastructure so you can stop firefighting and start delivering.</p>
           <div className="flex flex-col md:flex-row gap-6 justify-center">
-            <a href="https://cal.com/josh-geissler/30min" className="border border-neutral-950 bg-[#fff] text-neutral-950 px-8 py-3 rounded-lg font-semibold hover:bg-[#E6E6E6] hover:text-[#000] transition-colors shadow-lg flex items-center gap-2">
+            <a href="https://calendly.com/jrgeissler14/30min" className="border border-neutral-950 bg-[#fff] text-neutral-950 px-8 py-3 rounded-lg font-semibold hover:bg-[#E6E6E6] hover:text-[#000] transition-colors shadow-lg flex items-center gap-2">
               Schedule Your Free Assessment <ArrowRight className="w-5 h-5" />
             </a>
           </div>
@@ -223,7 +223,7 @@ function App() {
                 <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">
                   See Our Work
                 </a>
-                <a href="https://cal.com/josh-geissler/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
+                <a href="https://calendly.com/jrgeissler14/30min" className="bg-[#ffde59] text-black px-6 py-2 rounded-lg font-semibold hover:bg-opacity-90 transition-colors">
                   Get In Touch
                 </a>
               </nav>
@@ -246,7 +246,7 @@ function App() {
               <a href="mailto:josh@cloudzap.co" className="text-[#ffde59] hover:text-white transition-colors">josh@cloudzap.co</a>
             </div>
             <div className="flex gap-8 mt-4">
-              <a href="https://cal.com/josh-geissler/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Get In Touch</a>
+              <a href="https://calendly.com/jrgeissler14/30min" className="text-gray-300 hover:text-[#ffde59] transition-colors">Get In Touch</a>
               <a href="https://www.youtube.com/@JoshGeissler" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-[#ffde59] transition-colors">YouTube</a>
             </div>
           </div>
